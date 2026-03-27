@@ -1,0 +1,14 @@
+# ============================================================
+# Path configuration for liver tumor classification app
+# Paths can be relative (from app.py directory) or absolute
+# ============================================================
+
+# --- Stage 1: Tumor presence detection ---
+model_presence: "../models/best_protonet_class_liver_tumor_resnet34.pth"
+data_no_tumor: "../data/train_presence/no_tumor"
+data_tumor: "../data/train_presence/tumor"
+
+# --- Stage 2: Benign / Malignant classification ---
+model_class: "../models/v3_protonet_liver_tumor_resnet34.pth"
+data_benign: "../data/train/benign"
+data_malignant: "../data/train/malignant"

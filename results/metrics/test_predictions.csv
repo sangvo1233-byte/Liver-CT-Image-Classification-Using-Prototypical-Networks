@@ -1,0 +1,116 @@
+path,y_true,y_prob_malignant,y_pred
+C:\Users\ADMIN\Desktop\Data_final\benign_fn_pc\351.jpg,0,0.8758059548158833,1
+C:\Users\ADMIN\Desktop\Data_final\benign_fn_pc\257.jpg,0,0.005975221523193241,0
+C:\Users\ADMIN\Desktop\Data_final\benign_fn_pc\99.jpg,0,0.08535030593269614,0
+C:\Users\ADMIN\Desktop\Data_final\malignant_fn_pc\Chup cat lop vi tinh tam soat.5mm DM.Se 3.Img 25-40.jpg,1,0.9956720429585288,1
+C:\Users\ADMIN\Desktop\Data_final\malignant_fn_pc\296.jpg,1,0.9999998782171694,1
+C:\Users\ADMIN\Desktop\Data_final\benign_fn_pc\238.jpg,0,0.0003653770427753239,0
+C:\Users\ADMIN\Desktop\Data_final\benign_fn_pc\Chup cat lop vi tinh tang tren.5mm DM.Se 3.Img 18-31.jpg,0,0.006045233032829972,0
+C:\Users\ADMIN\Desktop\Data_final\malignant_fn_pc\68.jpg,1,0.9999997494506717,1
+C:\Users\ADMIN\Desktop\Data_final\malignant_fn_pc\Chup cat lop vi tinh tang tren.5mm DONG MACH.Se 3.Img 20-40.jpg,1,0.9972678844106497,1
+C:\Users\ADMIN\Desktop\Data_final\malignant_fn_pc\393.jpg,1,0.9999999745583771,1
+C:\Users\ADMIN\Desktop\Data_final\benign_fn_pc\10.jpg,0,0.00589556011071252,0
+C:\Users\ADMIN\Desktop\Data_final\malignant_fn_pc\318.jpg,1,0.9999999994865912,1
+C:\Users\ADMIN\Desktop\Data_final\malignant_fn_pc\391.jpg,1,0.999999941965389,1
+C:\Users\ADMIN\Desktop\Data_final\benign_fn_pc\50.jpg,0,0.05264778481888621,0
+C:\Users\ADMIN\Desktop\Data_final\malignant_fn_pc\Chup cat lop vi tinh tang tren.5mm DM.Se 3.Img 22-53.jpg,1,0.8055057262562908,1
+C:\Users\ADMIN\Desktop\Data_final\malignant_fn_pc\424.jpg,1,0.9999999999590543,1
+C:\Users\ADMIN\Desktop\Data_final\benign_fn_pc\137.jpg,0,0.0023423826419398655,0
+C:\Users\ADMIN\Desktop\Data_final\benign_fn_pc\233.jpg,0,0.023581848342676275,0
+C:\Users\ADMIN\Desktop\Data_final\benign_fn_pc\aug_47_1.jpg,0,7.3485625256966e-05,0
+C:\Users\ADMIN\Desktop\Data_final\benign_fn_pc\217.jpg,0,0.17078096667291318,0
+C:\Users\ADMIN\Desktop\Data_final\benign_fn_pc\199.jpg,0,0.0027265722201431667,0
+C:\Users\ADMIN\Desktop\Data_final\benign_fn_pc\347.jpg,0,0.02783912465425046,0
+C:\Users\ADMIN\Desktop\Data_final\malignant_fn_pc\133.jpg,1,0.3085108962241428,0
+C:\Users\ADMIN\Desktop\Data_final\malignant_fn_pc\Chup cat lop vi tinh tang tren.5mm DM.Se 3.Img 20-40.jpg,1,0.9999956607579724,1
+C:\Users\ADMIN\Desktop\Data_final\benign_fn_pc\aug_20_1.jpg,0,0.00012020460988420351,0
+C:\Users\ADMIN\Desktop\Data_final\malignant_fn_pc\45.jpg,1,0.6179506018651252,1
+C:\Users\ADMIN\Desktop\Data_final\malignant_fn_pc\276.jpg,1,0.6934567491344965,1
+C:\Users\ADMIN\Desktop\Data_final\benign_fn_pc\492.jpg,0,0.0009803496535557862,0
+C:\Users\ADMIN\Desktop\Data_final\malignant_fn_pc\187.jpg,1,0.9999996892784829,1
+C:\Users\ADMIN\Desktop\Data_final\benign_fn_pc\aug_36_1.jpg,0,7.348781099462444e-05,0
+C:\Users\ADMIN\Desktop\Data_final\malignant_fn_pc\93.jpg,1,0.9999999998505845,1
+C:\Users\ADMIN\Desktop\Data_final\benign_fn_pc\aug_15_1.jpg,0,0.00017102876300565935,0
+C:\Users\ADMIN\Desktop\Data_final\malignant_fn_pc\298.jpg,1,0.99999944426406,1
+C:\Users\ADMIN\Desktop\Data_final\benign_fn_pc\Chup cat lop vi tinh bung - ti.5mm DONG MACH.Se 3.Img 19-51.jpg,0,0.005664053557244291,0
+C:\Users\ADMIN\Desktop\Data_final\benign_fn_pc\aug_18_1.jpg,0,7.348532382411267e-05,0
+C:\Users\ADMIN\Desktop\Data_final\malignant_fn_pc\416.jpg,1,0.9999991732284046,1
+C:\Users\ADMIN\Desktop\Data_final\malignant_fn_pc\425.jpg,1,0.9999996523116067,1
+C:\Users\ADMIN\Desktop\Data_final\malignant_fn_pc\388.jpg,1,0.8976896002527698,1
+C:\Users\ADMIN\Desktop\Data_final\malignant_fn_pc\275.jpg,1,0.9999998882442778,1
+C:\Users\ADMIN\Desktop\Data_final\benign_fn_pc\248.jpg,0,0.00080410678618925,0
+C:\Users\ADMIN\Desktop\Data_final\malignant_fn_pc\Chup cat lop vi tinh tang tren.5mm DONG MACH.Se 3.Img 21-44.jpg,1,0.8239946045674712,1
+C:\Users\ADMIN\Desktop\Data_final\benign_fn_pc\Chup cat lop vi tinh bung-tieu.DONG MACH.Se 3.Img 26-44.jpg,0,0.0028266360372594334,0
+C:\Users\ADMIN\Desktop\Data_final\benign_fn_pc\Se 3.Img 15-33.jpg,0,0.0046960431396732595,0
+C:\Users\ADMIN\Desktop\Data_final\malignant_fn_pc\185.jpg,1,0.9999999998544135,1
+C:\Users\ADMIN\Desktop\Data_final\benign_fn_pc\Se 4.Img 21-83.jpg,0,0.00026151645655032976,0
+C:\Users\ADMIN\Desktop\Data_final\malignant_fn_pc\270.jpg,1,0.999999854869893,1
+C:\Users\ADMIN\Desktop\Data_final\benign_fn_pc\74.jpg,0,0.024906757082649382,0
+C:\Users\ADMIN\Desktop\Data_final\malignant_fn_pc\130.jpg,1,0.9877060510931209,1
+C:\Users\ADMIN\Desktop\Data_final\malignant_fn_pc\434.jpg,1,0.040174590432644264,0
+C:\Users\ADMIN\Desktop\Data_final\malignant_fn_pc\Chup cat lop vi tinh tang tren.5mm DONG MACH.Se 3.Img 13-40.jpg,1,0.9936922009408685,1
+C:\Users\ADMIN\Desktop\Data_final\malignant_fn_pc\188.jpg,1,0.8969254877998698,1
+C:\Users\ADMIN\Desktop\Data_final\malignant_fn_pc\Chup cat lop vi tinh tang tren.5mm DM.Se 3.Img 23-50.jpg,1,0.9999947077812545,1
+C:\Users\ADMIN\Desktop\Data_final\benign_fn_pc\321.jpg,0,0.011583632470980895,0
+C:\Users\ADMIN\Desktop\Data_final\benign_fn_pc\419.jpg,0,0.004641381554885825,0
+C:\Users\ADMIN\Desktop\Data_final\malignant_fn_pc\2.jpg,1,0.76829205704888,1
+C:\Users\ADMIN\Desktop\Data_final\benign_fn_pc\Chup cat lop vi tinh long nguc.5mm Stnd SAU TIEM.Se 2.Img 41-47.jpg,0,0.03200917746094413,0
+C:\Users\ADMIN\Desktop\Data_final\malignant_fn_pc\448.jpg,1,0.3082928836046266,0
+C:\Users\ADMIN\Desktop\Data_final\benign_fn_pc\244.jpg,0,0.5292618340990355,1
+C:\Users\ADMIN\Desktop\Data_final\benign_fn_pc\aug_0_1.jpg,0,8.047370527324357e-05,0
+C:\Users\ADMIN\Desktop\Data_final\benign_fn_pc\152.jpg,0,0.020114928583670436,0
+C:\Users\ADMIN\Desktop\Data_final\benign_fn_pc\X09Chup cat lop vi tinh tang t.5mm DONG MACH.Se 3.Img 12-42.jpg,0,0.007311070494425013,0
+C:\Users\ADMIN\Desktop\Data_final\malignant_fn_pc\Se 3.Img 13-28.jpg,1,0.9999999910514165,1
+C:\Users\ADMIN\Desktop\Data_final\malignant_fn_pc\272.jpg,1,0.9952755590144944,1
+C:\Users\ADMIN\Desktop\Data_final\benign_fn_pc\Se 4.Img 11-24.jpg,0,0.47206408901444097,0
+C:\Users\ADMIN\Desktop\Data_final\malignant_fn_pc\331.jpg,1,0.17145124901409614,0
+C:\Users\ADMIN\Desktop\Data_final\malignant_fn_pc\125.jpg,1,0.9999999958610142,1
+C:\Users\ADMIN\Desktop\Data_final\benign_fn_pc\24.jpg,0,0.09321424734314904,0
+C:\Users\ADMIN\Desktop\Data_final\benign_fn_pc\Chup cat lop vi tinh bung - ti.5mm DONG MACH.Se 3.Img 24-47.jpg,0,0.0036913240349323987,0
+C:\Users\ADMIN\Desktop\Data_final\malignant_fn_pc\288.jpg,1,0.5357930405350674,1
+C:\Users\ADMIN\Desktop\Data_final\benign_fn_pc\289.jpg,0,0.015148108459615426,0
+C:\Users\ADMIN\Desktop\Data_final\malignant_fn_pc\327.jpg,1,0.9999994705467905,1
+C:\Users\ADMIN\Desktop\Data_final\benign_fn_pc\313.jpg,0,0.0035385244869139054,0
+C:\Users\ADMIN\Desktop\Data_final\benign_fn_pc\Se 3.Img 13-33.jpg,0,0.008392710223420832,0
+C:\Users\ADMIN\Desktop\Data_final\malignant_fn_pc\362.jpg,1,0.9958212655259077,1
+C:\Users\ADMIN\Desktop\Data_final\malignant_fn_pc\251.jpg,1,0.9899390893105331,1
+C:\Users\ADMIN\Desktop\Data_final\malignant_fn_pc\107.jpg,1,0.9706641628949125,1
+C:\Users\ADMIN\Desktop\Data_final\malignant_fn_pc\161.jpg,1,0.6487930849388086,1
+C:\Users\ADMIN\Desktop\Data_final\benign_fn_pc\Chup cat lop vi tinh tang tren.5mm DONG MACH.Se 3.Img 28-43.jpg,0,0.004223299314060496,0
+C:\Users\ADMIN\Desktop\Data_final\malignant_fn_pc\36.jpg,1,0.2777958241225847,0
+C:\Users\ADMIN\Desktop\Data_final\malignant_fn_pc\Chup cat lop vi tinh bung-tieu.5mm DONG MACH.Se 3.Img 26-52.jpg,1,0.9943455053717513,1
+C:\Users\ADMIN\Desktop\Data_final\malignant_fn_pc\142.jpg,1,0.9674690545303164,1
+C:\Users\ADMIN\Desktop\Data_final\benign_fn_pc\Chup cat lop vi tinh tang tren.DONG MACH.Se 3.Img 17-44.jpg,0,0.1987029544337856,0
+C:\Users\ADMIN\Desktop\Data_final\malignant_fn_pc\445.jpg,1,0.9429487647469204,1
+C:\Users\ADMIN\Desktop\Data_final\benign_fn_pc\323.jpg,0,0.000911238270662762,0
+C:\Users\ADMIN\Desktop\Data_final\malignant_fn_pc\Chup cat lop vi tinh long nguc.5mm Stnd.Se 2.Img 54-66.jpg,1,0.9999999551452324,1
+C:\Users\ADMIN\Desktop\Data_final\benign_fn_pc\249.jpg,0,0.1326902072763349,0
+C:\Users\ADMIN\Desktop\Data_final\benign_fn_pc\343.jpg,0,0.3860128252806293,0
+C:\Users\ADMIN\Desktop\Data_final\benign_fn_pc\aug_9_1.jpg,0,0.00014828209859099777,0
+C:\Users\ADMIN\Desktop\Data_final\malignant_fn_pc\Chup cat lop vi tinh bung-tieu.5mm Stnd SAU TIEM.Se 2.Img 28-99.jpg,1,0.9915995171011017,1
+C:\Users\ADMIN\Desktop\Data_final\malignant_fn_pc\Se 3.Img 12-35.jpg,1,0.9999870152663932,1
+C:\Users\ADMIN\Desktop\Data_final\malignant_fn_pc\254.jpg,1,0.9999999210604742,1
+C:\Users\ADMIN\Desktop\Data_final\malignant_fn_pc\385.jpg,1,0.9999935833363909,1
+C:\Users\ADMIN\Desktop\Data_final\malignant_fn_pc\401.jpg,1,0.6859396130656721,1
+C:\Users\ADMIN\Desktop\Data_final\benign_fn_pc\8.jpg,0,0.6669887224914017,1
+C:\Users\ADMIN\Desktop\Data_final\benign_fn_pc\151.jpg,0,0.2883251145480769,0
+C:\Users\ADMIN\Desktop\Data_final\benign_fn_pc\Chup cat lop vi tinh tang tren.5mm DM.Se 3.Img 14-45.jpg,0,0.15446111271977403,0
+C:\Users\ADMIN\Desktop\Data_final\malignant_fn_pc\471.jpg,1,0.9999999670554212,1
+C:\Users\ADMIN\Desktop\Data_final\benign_fn_pc\Chup cat lop vi tinh bung - ti.5mm DONG MACH.Se 3.Img 25-53.jpg,0,0.00307556505415296,0
+C:\Users\ADMIN\Desktop\Data_final\benign_fn_pc\329.jpg,0,0.09321299035521612,0
+C:\Users\ADMIN\Desktop\Data_final\malignant_fn_pc\192.jpg,1,0.9999985690405738,1
+C:\Users\ADMIN\Desktop\Data_final\benign_fn_pc\Chup cat lop vi tinh bung - ti.5mm DONG MACH.Se 3.Img 19-51 (1).jpg,0,0.012873003468133904,0
+C:\Users\ADMIN\Desktop\Data_final\malignant_fn_pc\429.jpg,1,0.9904152022668768,1
+C:\Users\ADMIN\Desktop\Data_final\malignant_fn_pc\Chup cat lop vi tinh tang tren.5MM TMC.Se 4.Img 25-89.jpg,1,0.1341197688727371,0
+C:\Users\ADMIN\Desktop\Data_final\benign_fn_pc\Chup cat lop vi tinh bung - ti.5mm DONG MACH.Se 3.Img 24-48.jpg,0,0.008685782102557537,0
+C:\Users\ADMIN\Desktop\Data_final\benign_fn_pc\aug_50_1.jpg,0,0.0001574171870314686,0
+C:\Users\ADMIN\Desktop\Data_final\benign_fn_pc\Chup cat lop vi tinh tang tren.5mm DONG MACH.Se 3.Img 21-45.jpg,0,0.012990326028856896,0
+C:\Users\ADMIN\Desktop\Data_final\malignant_fn_pc\442.jpg,1,0.910141278551172,1
+C:\Users\ADMIN\Desktop\Data_final\malignant_fn_pc\170.jpg,1,0.4933054542967049,0
+C:\Users\ADMIN\Desktop\Data_final\benign_fn_pc\aug_5_1.jpg,0,9.571773937873236e-05,0
+C:\Users\ADMIN\Desktop\Data_final\malignant_fn_pc\194.jpg,1,0.9733815314608135,1
+C:\Users\ADMIN\Desktop\Data_final\benign_fn_pc\82.jpg,0,0.04686670146275357,0
+C:\Users\ADMIN\Desktop\Data_final\benign_fn_pc\72.jpg,0,0.050462153529950815,0
+C:\Users\ADMIN\Desktop\Data_final\benign_fn_pc\423.jpg,0,0.08216951402785838,0
+C:\Users\ADMIN\Desktop\Data_final\benign_fn_pc\359.jpg,0,0.4695766371464187,0
+C:\Users\ADMIN\Desktop\Data_final\benign_fn_pc\395.jpg,0,0.005714268234459115,0

@@ -1,0 +1,38 @@
+# Models (too large for GitHub)
+*.pth
+*.pt
+*.onnx
+
+# Data (support-set images, too large for GitHub)
+data/
+!data/README.md
+
+# TensorBoard runs
+runs_protonet_*/
+runs/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+dist/
+build/
+
+# Virtual environment
+.venv/
+venv/
+env/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Jupyter checkpoints
+.ipynb_checkpoints/

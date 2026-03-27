@@ -1,0 +1,7 @@
+[theme]
+base = "dark"
+primaryColor = "#0ea5e9"              # Màu nhấn dịu (nút, link)
+backgroundColor = "#ffffff"           # Nền trắng
+secondaryBackgroundColor = "#f8fafc"  # Box / panel phụ
+textColor = "#0f172a"                 # Chữ đậm, dễ đọc
+font = "sans serif"
