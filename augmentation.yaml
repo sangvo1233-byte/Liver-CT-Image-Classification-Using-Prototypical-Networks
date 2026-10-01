@@ -1,0 +1,29 @@
+# Recovered policy from notebooks 01/02; seed 42 is NEW for offline generation.
+version: 1
+seed: 42
+copies_per_original: 1
+augmentation:
+  rotation_degrees: 25
+  horizontal_flip_probability: 0.5
+  brightness_min: 0.7
+  brightness_max: 1.3
+
+# Evidence only. These fields are not additional transforms for the generator.
+historical:
+  preprocessing_notebooks: [01_preprocess.ipynb, 02_preprocess_class_tumor.ipynb]
+  offline_seed_recorded: null
+  target_counts_per_class: {subtype: 317, presence: 300}
+  declared_but_unused: {shift_fraction: 0.2, zoom_fraction: 0.3, shear_degrees: 10}
+  public_v3_training:
+    notebook: 07_train_protonet_v3.ipynb
+    seed: 42
+    horizontal_flip_probability: 0.5
+    vertical_flip_probability: 0.3
+    rotation_degrees: 10
+    brightness_jitter: 0.1
+    contrast_jitter: 0.1
+    random_erasing_probability: 0.15
+    random_erasing_scale: [0.02, 0.10]
+
+# The generator applies only augmentation to decoded RGB pixels.
+# It does not rerun Otsu cropping, resize or ImageNet normalization.

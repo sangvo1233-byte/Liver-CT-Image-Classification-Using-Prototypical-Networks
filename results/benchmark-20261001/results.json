@@ -1,0 +1,3755 @@
+[
+  {
+    "method": "frozen",
+    "budget": 5,
+    "seed": 42,
+    "task": "presence",
+    "metrics": {
+      "n": 93,
+      "accuracy": 0.8602150537634409,
+      "precision": 0.9629629629629629,
+      "recall": 0.8863636363636364,
+      "specificity": 0.4,
+      "f1": 0.9230769230769231,
+      "macro_f1": 0.579185520361991,
+      "auc": 0.7420454545454545,
+      "tn": 2,
+      "fp": 3,
+      "fn": 10,
+      "tp": 78,
+      "threshold": 7.864844617440335e-26,
+      "label_provenance": "UNVERIFIED",
+      "evidence_status": "EXPLORATORY_UNKNOWN_ANCESTRY_AND_UNVERIFIED_LABELS",
+      "budget_unit": "UNIQUE_PIXEL_IMAGES",
+      "ci_group_unit": "pixel_sha256",
+      "test_groups": 93,
+      "ci95": {
+        "recall": {
+          "low": 0.811031746031746,
+          "high": 0.9438202247191011,
+          "valid_replicates": 199
+        },
+        "auc": {
+          "low": 0.47357573866000835,
+          "high": 0.9591248693834901,
+          "valid_replicates": 199
+        }
+      }
+    }
+  },
+  {
+    "method": "frozen",
+    "budget": 5,
+    "seed": 42,
+    "task": "subtype",
+    "metrics": {
+      "n": 88,
+      "accuracy": 0.7840909090909091,
+      "precision": 0.9444444444444444,
+      "recall": 0.8192771084337349,
+      "specificity": 0.2,
+      "f1": 0.8774193548387097,
+      "macro_f1": 0.48632872503840247,
+      "auc": 0.783132530120482,
+      "tn": 1,
+      "fp": 4,
+      "fn": 15,
+      "tp": 68,
+      "threshold": 1.114533628233293e-16,
+      "label_provenance": "UNVERIFIED",
+      "evidence_status": "EXPLORATORY_UNKNOWN_ANCESTRY_AND_UNVERIFIED_LABELS",
+      "budget_unit": "UNIQUE_PIXEL_IMAGES",
+      "ci_group_unit": "pixel_sha256",
+      "test_groups": 88,
+      "ci95": {
+        "recall": {
+          "low": 0.7340537202840383,
+          "high": 0.8977448254556688,
+          "valid_replicates": 199
+        },
+        "auc": {
+          "low": 0.6510451273532669,
+          "high": 0.8907465154736594,
+          "valid_replicates": 199
+        }
+      }
+    }
+  },
+  {
+    "method": "frozen",
+    "budget": 5,
+    "seed": 42,
+    "task": "pipeline",
+    "metrics": {
+      "n": 93,
+      "accuracy": 0.6881720430107527,
+      "precision": 0.9104477611940298,
+      "recall": 0.7349397590361446,
+      "specificity": 0.4,
+      "f1": 0.8133333333333334,
+      "macro_f1": 0.38463020295837635,
+      "auc": 0.6740963855421687,
+      "tn": 4,
+      "fp": 6,
+      "fn": 22,
+      "tp": 61,
+      "label_provenance": "UNVERIFIED",
+      "evidence_status": "EXPLORATORY_UNKNOWN_ANCESTRY_AND_UNVERIFIED_LABELS",
+      "budget_unit": "UNIQUE_PIXEL_IMAGES",
+      "ci_group_unit": "pixel_sha256",
+      "confusion_matrix": [
+        [
+          2,
+          1,
+          2
+        ],
+        [
+          0,
+          1,
+          4
+        ],
+        [
+          10,
+          12,
+          61
+        ]
+      ],
+      "classes": [
+        "no_tumor",
+        "benign",
+        "malignant"
+      ],
+      "presence_threshold": 7.864844617440335e-26,
+      "subtype_threshold": 1.114533628233293e-16,
+      "score_definition": "presence_score * subtype_score; uncalibrated ranking score",
+      "untyped_test_tumor_rows_excluded": 0,
+      "test_groups": 93,
+      "ci95": {
+        "recall": {
+          "low": 0.6426393728222997,
+          "high": 0.8182092004381162,
+          "valid_replicates": 200
+        },
+        "auc": {
+          "low": 0.5166296066619419,
+          "high": 0.8215663580246915,
+          "valid_replicates": 200
+        }
+      }
+    }
+  },
+  {
+    "method": "frozen",
+    "budget": 5,
+    "seed": 43,
+    "task": "presence",
+    "metrics": {
+      "n": 93,
+      "accuracy": 0.9032258064516129,
+      "precision": 0.9540229885057471,
+      "recall": 0.9431818181818182,
+      "specificity": 0.2,
+      "f1": 0.9485714285714286,
+      "macro_f1": 0.5651948051948052,
+      "auc": 0.5499999999999999,
+      "tn": 1,
+      "fp": 4,
+      "fn": 5,
+      "tp": 83,
+      "threshold": 4.1085241115038434e-21,
+      "label_provenance": "UNVERIFIED",
+      "evidence_status": "EXPLORATORY_UNKNOWN_ANCESTRY_AND_UNVERIFIED_LABELS",
+      "budget_unit": "UNIQUE_PIXEL_IMAGES",
+      "ci_group_unit": "pixel_sha256",
+      "test_groups": 93,
+      "ci95": {
+        "recall": {
+          "low": 0.8920454545454546,
+          "high": 0.978021978021978,
+          "valid_replicates": 196
+        },
+        "auc": {
+          "low": 0.4145249735729387,
+          "high": 0.7576280041797284,
+          "valid_replicates": 196
+        }
+      }
+    }
+  },
+  {
+    "method": "frozen",
+    "budget": 5,
+    "seed": 43,
+    "task": "subtype",
+    "metrics": {
+      "n": 88,
+      "accuracy": 0.7613636363636364,
+      "precision": 0.9428571428571428,
+      "recall": 0.7951807228915663,
+      "specificity": 0.2,
+      "f1": 0.8627450980392157,
+      "macro_f1": 0.47485080988917305,
+      "auc": 0.5963855421686747,
+      "tn": 1,
+      "fp": 4,
+      "fn": 17,
+      "tp": 66,
+      "threshold": 4.194129360257648e-06,
+      "label_provenance": "UNVERIFIED",
+      "evidence_status": "EXPLORATORY_UNKNOWN_ANCESTRY_AND_UNVERIFIED_LABELS",
+      "budget_unit": "UNIQUE_PIXEL_IMAGES",
+      "ci_group_unit": "pixel_sha256",
+      "test_groups": 88,
+      "ci95": {
+        "recall": {
+          "low": 0.7142857142857143,
+          "high": 0.8888888888888888,
+          "valid_replicates": 199
+        },
+        "auc": {
+          "low": 0.36939058559820676,
+          "high": 0.8735632183908046,
+          "valid_replicates": 199
+        }
+      }
+    }
+  },
+  {
+    "method": "frozen",
+    "budget": 5,
+    "seed": 43,
+    "task": "pipeline",
+    "metrics": {
+      "n": 93,
+      "accuracy": 0.6989247311827957,
+      "precision": 0.9130434782608695,
+      "recall": 0.7590361445783133,
+      "specificity": 0.4,
+      "f1": 0.8289473684210527,
+      "macro_f1": 0.3659073573261216,
+      "auc": 0.65,
+      "tn": 4,
+      "fp": 6,
+      "fn": 20,
+      "tp": 63,
+      "label_provenance": "UNVERIFIED",
+      "evidence_status": "EXPLORATORY_UNKNOWN_ANCESTRY_AND_UNVERIFIED_LABELS",
+      "budget_unit": "UNIQUE_PIXEL_IMAGES",
+      "ci_group_unit": "pixel_sha256",
+      "confusion_matrix": [
+        [
+          1,
+          2,
+          2
+        ],
+        [
+          0,
+          1,
+          4
+        ],
+        [
+          5,
+          15,
+          63
+        ]
+      ],
+      "classes": [
+        "no_tumor",
+        "benign",
+        "malignant"
+      ],
+      "presence_threshold": 4.1085241115038434e-21,
+      "subtype_threshold": 4.194129360257648e-06,
+      "score_definition": "presence_score * subtype_score; uncalibrated ranking score",
+      "untyped_test_tumor_rows_excluded": 0,
+      "test_groups": 93,
+      "ci95": {
+        "recall": {
+          "low": 0.6504958859829562,
+          "high": 0.8536585365853658,
+          "valid_replicates": 200
+        },
+        "auc": {
+          "low": 0.45829066265060237,
+          "high": 0.8216960489014884,
+          "valid_replicates": 200
+        }
+      }
+    }
+  },
+  {
+    "method": "frozen",
+    "budget": 5,
+    "seed": 44,
+    "task": "presence",
+    "metrics": {
+      "n": 93,
+      "accuracy": 0.6451612903225806,
+      "precision": 0.9824561403508771,
+      "recall": 0.6363636363636364,
+      "specificity": 0.8,
+      "f1": 0.7724137931034483,
+      "macro_f1": 0.4837678721614802,
+      "auc": 0.7477272727272727,
+      "tn": 4,
+      "fp": 1,
+      "fn": 32,
+      "tp": 56,
+      "threshold": 5.446034734291061e-10,
+      "label_provenance": "UNVERIFIED",
+      "evidence_status": "EXPLORATORY_UNKNOWN_ANCESTRY_AND_UNVERIFIED_LABELS",
+      "budget_unit": "UNIQUE_PIXEL_IMAGES",
+      "ci_group_unit": "pixel_sha256",
+      "test_groups": 93,
+      "ci95": {
+        "recall": {
+          "low": 0.5229585095137421,
+          "high": 0.717434049829018,
+          "valid_replicates": 200
+        },
+        "auc": {
+          "low": 0.4027777777777779,
+          "high": 0.9759783272283272,
+          "valid_replicates": 200
+        }
+      }
+    }
+  },
+  {
+    "method": "frozen",
+    "budget": 5,
+    "seed": 44,
+    "task": "subtype",
+    "metrics": {
+      "n": 88,
+      "accuracy": 0.9204545454545454,
+      "precision": 0.9418604651162791,
+      "recall": 0.9759036144578314,
+      "specificity": 0.0,
+      "f1": 0.9585798816568047,
+      "macro_f1": 0.47928994082840237,
+      "auc": 0.6337349397590362,
+      "tn": 0,
+      "fp": 5,
+      "fn": 2,
+      "tp": 81,
+      "threshold": 5.650089771047639e-13,
+      "label_provenance": "UNVERIFIED",
+      "evidence_status": "EXPLORATORY_UNKNOWN_ANCESTRY_AND_UNVERIFIED_LABELS",
+      "budget_unit": "UNIQUE_PIXEL_IMAGES",
+      "ci_group_unit": "pixel_sha256",
+      "test_groups": 88,
+      "ci95": {
+        "recall": {
+          "low": 0.9377288207747977,
+          "high": 1.0,
+          "valid_replicates": 198
+        },
+        "auc": {
+          "low": 0.3372093023255814,
+          "high": 0.8666977666764618,
+          "valid_replicates": 198
+        }
+      }
+    }
+  },
+  {
+    "method": "frozen",
+    "budget": 5,
+    "seed": 44,
+    "task": "pipeline",
+    "metrics": {
+      "n": 93,
+      "accuracy": 0.5698924731182796,
+      "precision": 0.8909090909090909,
+      "recall": 0.5903614457831325,
+      "specificity": 0.4,
+      "f1": 0.7101449275362319,
+      "macro_f1": 0.3017556262519147,
+      "auc": 0.5379518072289157,
+      "tn": 4,
+      "fp": 6,
+      "fn": 34,
+      "tp": 49,
+      "label_provenance": "UNVERIFIED",
+      "evidence_status": "EXPLORATORY_UNKNOWN_ANCESTRY_AND_UNVERIFIED_LABELS",
+      "budget_unit": "UNIQUE_PIXEL_IMAGES",
+      "ci_group_unit": "pixel_sha256",
+      "confusion_matrix": [
+        [
+          4,
+          0,
+          1
+        ],
+        [
+          0,
+          0,
+          5
+        ],
+        [
+          32,
+          2,
+          49
+        ]
+      ],
+      "classes": [
+        "no_tumor",
+        "benign",
+        "malignant"
+      ],
+      "presence_threshold": 5.446034734291061e-10,
+      "subtype_threshold": 5.650089771047639e-13,
+      "score_definition": "presence_score * subtype_score; uncalibrated ranking score",
+      "untyped_test_tumor_rows_excluded": 0,
+      "test_groups": 93,
+      "ci95": {
+        "recall": {
+          "low": 0.471211153682418,
+          "high": 0.6826236631016044,
+          "valid_replicates": 200
+        },
+        "auc": {
+          "low": 0.36225128798747874,
+          "high": 0.7229399536976656,
+          "valid_replicates": 200
+        }
+      }
+    }
+  },
+  {
+    "method": "frozen",
+    "budget": 10,
+    "seed": 42,
+    "task": "presence",
+    "metrics": {
+      "n": 93,
+      "accuracy": 0.8602150537634409,
+      "precision": 0.9518072289156626,
+      "recall": 0.8977272727272727,
+      "specificity": 0.2,
+      "f1": 0.9239766081871345,
+      "macro_f1": 0.5286549707602339,
+      "auc": 0.7193181818181817,
+      "tn": 1,
+      "fp": 4,
+      "fn": 9,
+      "tp": 79,
+      "threshold": 2.1168098589918087e-19,
+      "label_provenance": "UNVERIFIED",
+      "evidence_status": "EXPLORATORY_UNKNOWN_ANCESTRY_AND_UNVERIFIED_LABELS",
+      "budget_unit": "UNIQUE_PIXEL_IMAGES",
+      "ci_group_unit": "pixel_sha256",
+      "test_groups": 93,
+      "ci95": {
+        "recall": {
+          "low": 0.8253135615364515,
+          "high": 0.9535412262156449,
+          "valid_replicates": 199
+        },
+        "auc": {
+          "low": 0.4629214559386973,
+          "high": 0.8993871297242082,
+          "valid_replicates": 199
+        }
+      }
+    }
+  },
+  {
+    "method": "frozen",
+    "budget": 10,
+    "seed": 42,
+    "task": "subtype",
+    "metrics": {
+      "n": 88,
+      "accuracy": 0.9204545454545454,
+      "precision": 0.9418604651162791,
+      "recall": 0.9759036144578314,
+      "specificity": 0.0,
+      "f1": 0.9585798816568047,
+      "macro_f1": 0.47928994082840237,
+      "auc": 0.4457831325301205,
+      "tn": 0,
+      "fp": 5,
+      "fn": 2,
+      "tp": 81,
+      "threshold": 1.6774773712313618e-06,
+      "label_provenance": "UNVERIFIED",
+      "evidence_status": "EXPLORATORY_UNKNOWN_ANCESTRY_AND_UNVERIFIED_LABELS",
+      "budget_unit": "UNIQUE_PIXEL_IMAGES",
+      "ci_group_unit": "pixel_sha256",
+      "test_groups": 88,
+      "ci95": {
+        "recall": {
+          "low": 0.9389867509786208,
+          "high": 1.0,
+          "valid_replicates": 199
+        },
+        "auc": {
+          "low": 0.29878048780487804,
+          "high": 0.6481917211328976,
+          "valid_replicates": 199
+        }
+      }
+    }
+  },
+  {
+    "method": "frozen",
+    "budget": 10,
+    "seed": 42,
+    "task": "pipeline",
+    "metrics": {
+      "n": 93,
+      "accuracy": 0.7956989247311828,
+      "precision": 0.8902439024390244,
+      "recall": 0.8795180722891566,
+      "specificity": 0.1,
+      "f1": 0.8848484848484849,
+      "macro_f1": 0.3393939393939394,
+      "auc": 0.5265060240963855,
+      "tn": 1,
+      "fp": 9,
+      "fn": 10,
+      "tp": 73,
+      "label_provenance": "UNVERIFIED",
+      "evidence_status": "EXPLORATORY_UNKNOWN_ANCESTRY_AND_UNVERIFIED_LABELS",
+      "budget_unit": "UNIQUE_PIXEL_IMAGES",
+      "ci_group_unit": "pixel_sha256",
+      "confusion_matrix": [
+        [
+          1,
+          0,
+          4
+        ],
+        [
+          0,
+          0,
+          5
+        ],
+        [
+          9,
+          1,
+          73
+        ]
+      ],
+      "classes": [
+        "no_tumor",
+        "benign",
+        "malignant"
+      ],
+      "presence_threshold": 2.1168098589918087e-19,
+      "subtype_threshold": 1.6774773712313618e-06,
+      "score_definition": "presence_score * subtype_score; uncalibrated ranking score",
+      "untyped_test_tumor_rows_excluded": 0,
+      "test_groups": 93,
+      "ci95": {
+        "recall": {
+          "low": 0.8146976090014064,
+          "high": 0.9397769650028687,
+          "valid_replicates": 200
+        },
+        "auc": {
+          "low": 0.3476927287828451,
+          "high": 0.720357142857143,
+          "valid_replicates": 200
+        }
+      }
+    }
+  },
+  {
+    "method": "frozen",
+    "budget": 10,
+    "seed": 43,
+    "task": "presence",
+    "metrics": {
+      "n": 93,
+      "accuracy": 0.7419354838709677,
+      "precision": 0.9571428571428572,
+      "recall": 0.7613636363636364,
+      "specificity": 0.4,
+      "f1": 0.8481012658227848,
+      "macro_f1": 0.49547920433996384,
+      "auc": 0.6931818181818181,
+      "tn": 2,
+      "fp": 3,
+      "fn": 21,
+      "tp": 67,
+      "threshold": 6.672192132128885e-09,
+      "label_provenance": "UNVERIFIED",
+      "evidence_status": "EXPLORATORY_UNKNOWN_ANCESTRY_AND_UNVERIFIED_LABELS",
+      "budget_unit": "UNIQUE_PIXEL_IMAGES",
+      "ci_group_unit": "pixel_sha256",
+      "test_groups": 93,
+      "ci95": {
+        "recall": {
+          "low": 0.6546712109061747,
+          "high": 0.84113253319714,
+          "valid_replicates": 196
+        },
+        "auc": {
+          "low": 0.4070512002042901,
+          "high": 0.8952925666287735,
+          "valid_replicates": 196
+        }
+      }
+    }
+  },
+  {
+    "method": "frozen",
+    "budget": 10,
+    "seed": 43,
+    "task": "subtype",
+    "metrics": {
+      "n": 88,
+      "accuracy": 0.7159090909090909,
+      "precision": 0.9833333333333333,
+      "recall": 0.7108433734939759,
+      "specificity": 0.8,
+      "f1": 0.8251748251748252,
+      "macro_f1": 0.5337995337995338,
+      "auc": 0.7590361445783131,
+      "tn": 4,
+      "fp": 1,
+      "fn": 24,
+      "tp": 59,
+      "threshold": 3.6293362759565184e-10,
+      "label_provenance": "UNVERIFIED",
+      "evidence_status": "EXPLORATORY_UNKNOWN_ANCESTRY_AND_UNVERIFIED_LABELS",
+      "budget_unit": "UNIQUE_PIXEL_IMAGES",
+      "ci_group_unit": "pixel_sha256",
+      "test_groups": 88,
+      "ci95": {
+        "recall": {
+          "low": 0.6292457091237579,
+          "high": 0.8027975376196989,
+          "valid_replicates": 199
+        },
+        "auc": {
+          "low": 0.5773354341736694,
+          "high": 0.9016802925989671,
+          "valid_replicates": 199
+        }
+      }
+    }
+  },
+  {
+    "method": "frozen",
+    "budget": 10,
+    "seed": 43,
+    "task": "pipeline",
+    "metrics": {
+      "n": 93,
+      "accuracy": 0.6021505376344086,
+      "precision": 0.9433962264150944,
+      "recall": 0.6024096385542169,
+      "specificity": 0.7,
+      "f1": 0.7352941176470589,
+      "macro_f1": 0.4139292080468551,
+      "auc": 0.6536144578313252,
+      "tn": 7,
+      "fp": 3,
+      "fn": 33,
+      "tp": 50,
+      "label_provenance": "UNVERIFIED",
+      "evidence_status": "EXPLORATORY_UNKNOWN_ANCESTRY_AND_UNVERIFIED_LABELS",
+      "budget_unit": "UNIQUE_PIXEL_IMAGES",
+      "ci_group_unit": "pixel_sha256",
+      "confusion_matrix": [
+        [
+          2,
+          1,
+          2
+        ],
+        [
+          0,
+          4,
+          1
+        ],
+        [
+          21,
+          12,
+          50
+        ]
+      ],
+      "classes": [
+        "no_tumor",
+        "benign",
+        "malignant"
+      ],
+      "presence_threshold": 6.672192132128885e-09,
+      "subtype_threshold": 3.6293362759565184e-10,
+      "score_definition": "presence_score * subtype_score; uncalibrated ranking score",
+      "untyped_test_tumor_rows_excluded": 0,
+      "test_groups": 93,
+      "ci95": {
+        "recall": {
+          "low": 0.4939682781759951,
+          "high": 0.6942345854004253,
+          "valid_replicates": 200
+        },
+        "auc": {
+          "low": 0.5302203065134099,
+          "high": 0.7854044117647059,
+          "valid_replicates": 200
+        }
+      }
+    }
+  },
+  {
+    "method": "frozen",
+    "budget": 10,
+    "seed": 44,
+    "task": "presence",
+    "metrics": {
+      "n": 93,
+      "accuracy": 0.8279569892473119,
+      "precision": 0.9615384615384616,
+      "recall": 0.8522727272727273,
+      "specificity": 0.4,
+      "f1": 0.9036144578313253,
+      "macro_f1": 0.5518072289156627,
+      "auc": 0.7454545454545455,
+      "tn": 2,
+      "fp": 3,
+      "fn": 13,
+      "tp": 75,
+      "threshold": 1.4372769591810008e-24,
+      "label_provenance": "UNVERIFIED",
+      "evidence_status": "EXPLORATORY_UNKNOWN_ANCESTRY_AND_UNVERIFIED_LABELS",
+      "budget_unit": "UNIQUE_PIXEL_IMAGES",
+      "ci_group_unit": "pixel_sha256",
+      "test_groups": 93,
+      "ci95": {
+        "recall": {
+          "low": 0.767356937548994,
+          "high": 0.9318373340143002,
+          "valid_replicates": 200
+        },
+        "auc": {
+          "low": 0.46953703703703714,
+          "high": 0.9445283882783883,
+          "valid_replicates": 200
+        }
+      }
+    }
+  },
+  {
+    "method": "frozen",
+    "budget": 10,
+    "seed": 44,
+    "task": "subtype",
+    "metrics": {
+      "n": 88,
+      "accuracy": 0.8863636363636364,
+      "precision": 0.9397590361445783,
+      "recall": 0.9397590361445783,
+      "specificity": 0.0,
+      "f1": 0.9397590361445783,
+      "macro_f1": 0.46987951807228917,
+      "auc": 0.3783132530120482,
+      "tn": 0,
+      "fp": 5,
+      "fn": 5,
+      "tp": 78,
+      "threshold": 2.513007012678776e-19,
+      "label_provenance": "UNVERIFIED",
+      "evidence_status": "EXPLORATORY_UNKNOWN_ANCESTRY_AND_UNVERIFIED_LABELS",
+      "budget_unit": "UNIQUE_PIXEL_IMAGES",
+      "ci_group_unit": "pixel_sha256",
+      "test_groups": 88,
+      "ci95": {
+        "recall": {
+          "low": 0.8778201219512195,
+          "high": 0.9767642341619888,
+          "valid_replicates": 198
+        },
+        "auc": {
+          "low": 0.2676207983193277,
+          "high": 0.5453921568627451,
+          "valid_replicates": 198
+        }
+      }
+    }
+  },
+  {
+    "method": "frozen",
+    "budget": 10,
+    "seed": 44,
+    "task": "pipeline",
+    "metrics": {
+      "n": 93,
+      "accuracy": 0.7741935483870968,
+      "precision": 0.8974358974358975,
+      "recall": 0.8433734939759037,
+      "specificity": 0.2,
+      "f1": 0.8695652173913043,
+      "macro_f1": 0.3565217391304348,
+      "auc": 0.536144578313253,
+      "tn": 2,
+      "fp": 8,
+      "fn": 13,
+      "tp": 70,
+      "label_provenance": "UNVERIFIED",
+      "evidence_status": "EXPLORATORY_UNKNOWN_ANCESTRY_AND_UNVERIFIED_LABELS",
+      "budget_unit": "UNIQUE_PIXEL_IMAGES",
+      "ci_group_unit": "pixel_sha256",
+      "confusion_matrix": [
+        [
+          2,
+          0,
+          3
+        ],
+        [
+          0,
+          0,
+          5
+        ],
+        [
+          13,
+          0,
+          70
+        ]
+      ],
+      "classes": [
+        "no_tumor",
+        "benign",
+        "malignant"
+      ],
+      "presence_threshold": 1.4372769591810008e-24,
+      "subtype_threshold": 2.513007012678776e-19,
+      "score_definition": "presence_score * subtype_score; uncalibrated ranking score",
+      "untyped_test_tumor_rows_excluded": 0,
+      "test_groups": 93,
+      "ci95": {
+        "recall": {
+          "low": 0.7557457651449899,
+          "high": 0.926893830703013,
+          "valid_replicates": 200
+        },
+        "auc": {
+          "low": 0.34810927533664066,
+          "high": 0.7115240234120256,
+          "valid_replicates": 200
+        }
+      }
+    }
+  },
+  {
+    "method": "frozen",
+    "budget": 30,
+    "seed": 42,
+    "task": "presence",
+    "metrics": {
+      "n": 93,
+      "accuracy": 0.8924731182795699,
+      "precision": 0.9534883720930233,
+      "recall": 0.9318181818181818,
+      "specificity": 0.2,
+      "f1": 0.9425287356321839,
+      "macro_f1": 0.5545977011494253,
+      "auc": 0.6954545454545455,
+      "tn": 1,
+      "fp": 4,
+      "fn": 6,
+      "tp": 82,
+      "threshold": 4.553565599124952e-31,
+      "label_provenance": "UNVERIFIED",
+      "evidence_status": "EXPLORATORY_UNKNOWN_ANCESTRY_AND_UNVERIFIED_LABELS",
+      "budget_unit": "UNIQUE_PIXEL_IMAGES",
+      "ci_group_unit": "pixel_sha256",
+      "test_groups": 93,
+      "ci95": {
+        "recall": {
+          "low": 0.8651685393258427,
+          "high": 0.9772979797979798,
+          "valid_replicates": 199
+        },
+        "auc": {
+          "low": 0.44715147732001664,
+          "high": 0.9215771951727008,
+          "valid_replicates": 199
+        }
+      }
+    }
+  },
+  {
+    "method": "frozen",
+    "budget": 30,
+    "seed": 42,
+    "task": "subtype",
+    "metrics": {
+      "n": 88,
+      "accuracy": 0.6704545454545454,
+      "precision": 0.9655172413793104,
+      "recall": 0.6746987951807228,
+      "specificity": 0.6,
+      "f1": 0.7943262411347518,
+      "macro_f1": 0.48287740628166165,
+      "auc": 0.7831325301204819,
+      "tn": 3,
+      "fp": 2,
+      "fn": 27,
+      "tp": 56,
+      "threshold": 5.580610832112143e-06,
+      "label_provenance": "UNVERIFIED",
+      "evidence_status": "EXPLORATORY_UNKNOWN_ANCESTRY_AND_UNVERIFIED_LABELS",
+      "budget_unit": "UNIQUE_PIXEL_IMAGES",
+      "ci_group_unit": "pixel_sha256",
+      "test_groups": 88,
+      "ci95": {
+        "recall": {
+          "low": 0.5710924369747898,
+          "high": 0.7710843373493976,
+          "valid_replicates": 199
+        },
+        "auc": {
+          "low": 0.5464409484724122,
+          "high": 0.984516643866849,
+          "valid_replicates": 199
+        }
+      }
+    }
+  },
+  {
+    "method": "frozen",
+    "budget": 30,
+    "seed": 42,
+    "task": "pipeline",
+    "metrics": {
+      "n": 93,
+      "accuracy": 0.6021505376344086,
+      "precision": 0.896551724137931,
+      "recall": 0.6265060240963856,
+      "specificity": 0.4,
+      "f1": 0.7375886524822695,
+      "macro_f1": 0.3620245003223726,
+      "auc": 0.5795180722891566,
+      "tn": 4,
+      "fp": 6,
+      "fn": 31,
+      "tp": 52,
+      "label_provenance": "UNVERIFIED",
+      "evidence_status": "EXPLORATORY_UNKNOWN_ANCESTRY_AND_UNVERIFIED_LABELS",
+      "budget_unit": "UNIQUE_PIXEL_IMAGES",
+      "ci_group_unit": "pixel_sha256",
+      "confusion_matrix": [
+        [
+          1,
+          0,
+          4
+        ],
+        [
+          0,
+          3,
+          2
+        ],
+        [
+          6,
+          25,
+          52
+        ]
+      ],
+      "classes": [
+        "no_tumor",
+        "benign",
+        "malignant"
+      ],
+      "presence_threshold": 4.553565599124952e-31,
+      "subtype_threshold": 5.580610832112143e-06,
+      "score_definition": "presence_score * subtype_score; uncalibrated ranking score",
+      "untyped_test_tumor_rows_excluded": 0,
+      "test_groups": 93,
+      "ci95": {
+        "recall": {
+          "low": 0.5180515164104694,
+          "high": 0.7216357745629898,
+          "valid_replicates": 200
+        },
+        "auc": {
+          "low": 0.3922387186036611,
+          "high": 0.7341618036103331,
+          "valid_replicates": 200
+        }
+      }
+    }
+  },
+  {
+    "method": "frozen",
+    "budget": 30,
+    "seed": 43,
+    "task": "presence",
+    "metrics": {
+      "n": 93,
+      "accuracy": 0.8279569892473119,
+      "precision": 0.9615384615384616,
+      "recall": 0.8522727272727273,
+      "specificity": 0.4,
+      "f1": 0.9036144578313253,
+      "macro_f1": 0.5518072289156627,
+      "auc": 0.6920454545454546,
+      "tn": 2,
+      "fp": 3,
+      "fn": 13,
+      "tp": 75,
+      "threshold": 8.325238684378752e-18,
+      "label_provenance": "UNVERIFIED",
+      "evidence_status": "EXPLORATORY_UNKNOWN_ANCESTRY_AND_UNVERIFIED_LABELS",
+      "budget_unit": "UNIQUE_PIXEL_IMAGES",
+      "ci_group_unit": "pixel_sha256",
+      "test_groups": 93,
+      "ci95": {
+        "recall": {
+          "low": 0.7800760286225402,
+          "high": 0.9111738960020904,
+          "valid_replicates": 196
+        },
+        "auc": {
+          "low": 0.3564558861082737,
+          "high": 0.9351237842617153,
+          "valid_replicates": 196
+        }
+      }
+    }
+  },
+  {
+    "method": "frozen",
+    "budget": 30,
+    "seed": 43,
+    "task": "subtype",
+    "metrics": {
+      "n": 88,
+      "accuracy": 0.3977272727272727,
+      "precision": 0.96875,
+      "recall": 0.37349397590361444,
+      "specificity": 0.8,
+      "f1": 0.5391304347826087,
+      "macro_f1": 0.33513898788310764,
+      "auc": 0.7204819277108434,
+      "tn": 4,
+      "fp": 1,
+      "fn": 52,
+      "tp": 31,
+      "threshold": 0.004523977637290955,
+      "label_provenance": "UNVERIFIED",
+      "evidence_status": "EXPLORATORY_UNKNOWN_ANCESTRY_AND_UNVERIFIED_LABELS",
+      "budget_unit": "UNIQUE_PIXEL_IMAGES",
+      "ci_group_unit": "pixel_sha256",
+      "test_groups": 88,
+      "ci95": {
+        "recall": {
+          "low": 0.276943488238669,
+          "high": 0.4764773379231209,
+          "valid_replicates": 199
+        },
+        "auc": {
+          "low": 0.3982352941176471,
+          "high": 0.9195453612479474,
+          "valid_replicates": 199
+        }
+      }
+    }
+  },
+  {
+    "method": "frozen",
+    "budget": 30,
+    "seed": 43,
+    "task": "pipeline",
+    "metrics": {
+      "n": 93,
+      "accuracy": 0.3655913978494624,
+      "precision": 0.9333333333333333,
+      "recall": 0.3373493975903614,
+      "specificity": 0.8,
+      "f1": 0.49557522123893805,
+      "macro_f1": 0.2821728724884511,
+      "auc": 0.5590361445783132,
+      "tn": 8,
+      "fp": 2,
+      "fn": 55,
+      "tp": 28,
+      "label_provenance": "UNVERIFIED",
+      "evidence_status": "EXPLORATORY_UNKNOWN_ANCESTRY_AND_UNVERIFIED_LABELS",
+      "budget_unit": "UNIQUE_PIXEL_IMAGES",
+      "ci_group_unit": "pixel_sha256",
+      "confusion_matrix": [
+        [
+          2,
+          2,
+          1
+        ],
+        [
+          0,
+          4,
+          1
+        ],
+        [
+          13,
+          42,
+          28
+        ]
+      ],
+      "classes": [
+        "no_tumor",
+        "benign",
+        "malignant"
+      ],
+      "presence_threshold": 8.325238684378752e-18,
+      "subtype_threshold": 0.004523977637290955,
+      "score_definition": "presence_score * subtype_score; uncalibrated ranking score",
+      "untyped_test_tumor_rows_excluded": 0,
+      "test_groups": 93,
+      "ci95": {
+        "recall": {
+          "low": 0.24667824074074074,
+          "high": 0.44591904202174554,
+          "valid_replicates": 200
+        },
+        "auc": {
+          "low": 0.37463102409638555,
+          "high": 0.739318270374472,
+          "valid_replicates": 200
+        }
+      }
+    }
+  },
+  {
+    "method": "frozen",
+    "budget": 30,
+    "seed": 44,
+    "task": "presence",
+    "metrics": {
+      "n": 93,
+      "accuracy": 0.8709677419354839,
+      "precision": 0.9523809523809523,
+      "recall": 0.9090909090909091,
+      "specificity": 0.2,
+      "f1": 0.9302325581395349,
+      "macro_f1": 0.5365448504983389,
+      "auc": 0.6818181818181819,
+      "tn": 1,
+      "fp": 4,
+      "fn": 8,
+      "tp": 80,
+      "threshold": 4.214566629717753e-12,
+      "label_provenance": "UNVERIFIED",
+      "evidence_status": "EXPLORATORY_UNKNOWN_ANCESTRY_AND_UNVERIFIED_LABELS",
+      "budget_unit": "UNIQUE_PIXEL_IMAGES",
+      "ci_group_unit": "pixel_sha256",
+      "test_groups": 93,
+      "ci95": {
+        "recall": {
+          "low": 0.8444007490636705,
+          "high": 0.9676182864450128,
+          "valid_replicates": 200
+        },
+        "auc": {
+          "low": 0.3775,
+          "high": 0.9342032967032967,
+          "valid_replicates": 200
+        }
+      }
+    }
+  },
+  {
+    "method": "frozen",
+    "budget": 30,
+    "seed": 44,
+    "task": "subtype",
+    "metrics": {
+      "n": 88,
+      "accuracy": 0.5,
+      "precision": 0.975609756097561,
+      "recall": 0.4819277108433735,
+      "specificity": 0.8,
+      "f1": 0.6451612903225806,
+      "macro_f1": 0.39950372208436724,
+      "auc": 0.5228915662650603,
+      "tn": 4,
+      "fp": 1,
+      "fn": 43,
+      "tp": 40,
+      "threshold": 9.71935241977917e-06,
+      "label_provenance": "UNVERIFIED",
+      "evidence_status": "EXPLORATORY_UNKNOWN_ANCESTRY_AND_UNVERIFIED_LABELS",
+      "budget_unit": "UNIQUE_PIXEL_IMAGES",
+      "ci_group_unit": "pixel_sha256",
+      "test_groups": 88,
+      "ci95": {
+        "recall": {
+          "low": 0.3689006931886679,
+          "high": 0.5771377331420372,
+          "valid_replicates": 198
+        },
+        "auc": {
+          "low": 0.33725148198814414,
+          "high": 0.6583132444696539,
+          "valid_replicates": 198
+        }
+      }
+    }
+  },
+  {
+    "method": "frozen",
+    "budget": 30,
+    "seed": 44,
+    "task": "pipeline",
+    "metrics": {
+      "n": 93,
+      "accuracy": 0.4838709677419355,
+      "precision": 0.8888888888888888,
+      "recall": 0.4819277108433735,
+      "specificity": 0.5,
+      "f1": 0.625,
+      "macro_f1": 0.31655844155844154,
+      "auc": 0.4951807228915663,
+      "tn": 5,
+      "fp": 5,
+      "fn": 43,
+      "tp": 40,
+      "label_provenance": "UNVERIFIED",
+      "evidence_status": "EXPLORATORY_UNKNOWN_ANCESTRY_AND_UNVERIFIED_LABELS",
+      "budget_unit": "UNIQUE_PIXEL_IMAGES",
+      "ci_group_unit": "pixel_sha256",
+      "confusion_matrix": [
+        [
+          1,
+          0,
+          4
+        ],
+        [
+          0,
+          4,
+          1
+        ],
+        [
+          8,
+          35,
+          40
+        ]
+      ],
+      "classes": [
+        "no_tumor",
+        "benign",
+        "malignant"
+      ],
+      "presence_threshold": 4.214566629717753e-12,
+      "subtype_threshold": 9.71935241977917e-06,
+      "score_definition": "presence_score * subtype_score; uncalibrated ranking score",
+      "untyped_test_tumor_rows_excluded": 0,
+      "test_groups": 93,
+      "ci95": {
+        "recall": {
+          "low": 0.37612132352941174,
+          "high": 0.5748334639498432,
+          "valid_replicates": 200
+        },
+        "auc": {
+          "low": 0.3343087342602847,
+          "high": 0.6250128600823045,
+          "valid_replicates": 200
+        }
+      }
+    }
+  },
+  {
+    "method": "finetune",
+    "budget": 5,
+    "seed": 42,
+    "task": "presence",
+    "metrics": {
+      "n": 93,
+      "accuracy": 0.9354838709677419,
+      "precision": 0.9555555555555556,
+      "recall": 0.9772727272727273,
+      "specificity": 0.2,
+      "f1": 0.9662921348314607,
+      "macro_f1": 0.6081460674157304,
+      "auc": 0.8136363636363636,
+      "tn": 1,
+      "fp": 4,
+      "fn": 2,
+      "tp": 86,
+      "threshold": 0.45140910148620605,
+      "label_provenance": "UNVERIFIED",
+      "evidence_status": "EXPLORATORY_UNKNOWN_ANCESTRY_AND_UNVERIFIED_LABELS",
+      "budget_unit": "UNIQUE_PIXEL_IMAGES",
+      "ci_group_unit": "pixel_sha256",
+      "test_groups": 93,
+      "ci95": {
+        "recall": {
+          "low": 0.9424611223799865,
+          "high": 1.0,
+          "valid_replicates": 199
+        },
+        "auc": {
+          "low": 0.5628578859758635,
+          "high": 0.9742340067340067,
+          "valid_replicates": 199
+        }
+      }
+    }
+  },
+  {
+    "method": "finetune",
+    "budget": 5,
+    "seed": 42,
+    "task": "subtype",
+    "metrics": {
+      "n": 88,
+      "accuracy": 0.7613636363636364,
+      "precision": 0.9558823529411765,
+      "recall": 0.7831325301204819,
+      "specificity": 0.4,
+      "f1": 0.8609271523178808,
+      "macro_f1": 0.5104635761589403,
+      "auc": 0.7060240963855422,
+      "tn": 2,
+      "fp": 3,
+      "fn": 18,
+      "tp": 65,
+      "threshold": 0.028598614037036896,
+      "label_provenance": "UNVERIFIED",
+      "evidence_status": "EXPLORATORY_UNKNOWN_ANCESTRY_AND_UNVERIFIED_LABELS",
+      "budget_unit": "UNIQUE_PIXEL_IMAGES",
+      "ci_group_unit": "pixel_sha256",
+      "test_groups": 88,
+      "ci95": {
+        "recall": {
+          "low": 0.694889663182346,
+          "high": 0.8741912798874821,
+          "valid_replicates": 199
+        },
+        "auc": {
+          "low": 0.47012429971988795,
+          "high": 0.9230267498565692,
+          "valid_replicates": 199
+        }
+      }
+    }
+  },
+  {
+    "method": "finetune",
+    "budget": 5,
+    "seed": 42,
+    "task": "pipeline",
+    "metrics": {
+      "n": 93,
+      "accuracy": 0.7204301075268817,
+      "precision": 0.9552238805970149,
+      "recall": 0.7710843373493976,
+      "specificity": 0.7,
+      "f1": 0.8533333333333334,
+      "macro_f1": 0.41539682539682543,
+      "auc": 0.7843373493975904,
+      "tn": 7,
+      "fp": 3,
+      "fn": 19,
+      "tp": 64,
+      "label_provenance": "UNVERIFIED",
+      "evidence_status": "EXPLORATORY_UNKNOWN_ANCESTRY_AND_UNVERIFIED_LABELS",
+      "budget_unit": "UNIQUE_PIXEL_IMAGES",
+      "ci_group_unit": "pixel_sha256",
+      "confusion_matrix": [
+        [
+          1,
+          4,
+          0
+        ],
+        [
+          0,
+          2,
+          3
+        ],
+        [
+          2,
+          17,
+          64
+        ]
+      ],
+      "classes": [
+        "no_tumor",
+        "benign",
+        "malignant"
+      ],
+      "presence_threshold": 0.45140910148620605,
+      "subtype_threshold": 0.028598614037036896,
+      "score_definition": "presence_score * subtype_score; uncalibrated ranking score",
+      "untyped_test_tumor_rows_excluded": 0,
+      "test_groups": 93,
+      "ci95": {
+        "recall": {
+          "low": 0.6790123456790124,
+          "high": 0.8658536585365854,
+          "valid_replicates": 200
+        },
+        "auc": {
+          "low": 0.639471223674655,
+          "high": 0.9114845282682362,
+          "valid_replicates": 200
+        }
+      }
+    }
+  },
+  {
+    "method": "finetune",
+    "budget": 5,
+    "seed": 43,
+    "task": "presence",
+    "metrics": {
+      "n": 93,
+      "accuracy": 0.5698924731182796,
+      "precision": 0.9285714285714286,
+      "recall": 0.5909090909090909,
+      "specificity": 0.2,
+      "f1": 0.7222222222222222,
+      "macro_f1": 0.3849206349206349,
+      "auc": 0.475,
+      "tn": 1,
+      "fp": 4,
+      "fn": 36,
+      "tp": 52,
+      "threshold": 0.8429667949676514,
+      "label_provenance": "UNVERIFIED",
+      "evidence_status": "EXPLORATORY_UNKNOWN_ANCESTRY_AND_UNVERIFIED_LABELS",
+      "budget_unit": "UNIQUE_PIXEL_IMAGES",
+      "ci_group_unit": "pixel_sha256",
+      "test_groups": 93,
+      "ci95": {
+        "recall": {
+          "low": 0.4879500766087845,
+          "high": 0.7080448131695845,
+          "valid_replicates": 196
+        },
+        "auc": {
+          "low": 0.2414457070707071,
+          "high": 0.7822907456528146,
+          "valid_replicates": 196
+        }
+      }
+    }
+  },
+  {
+    "method": "finetune",
+    "budget": 5,
+    "seed": 43,
+    "task": "subtype",
+    "metrics": {
+      "n": 88,
+      "accuracy": 0.07954545454545454,
+      "precision": 1.0,
+      "recall": 0.024096385542168676,
+      "specificity": 1.0,
+      "f1": 0.047058823529411764,
+      "macro_f1": 0.07847446670976083,
+      "auc": 0.8024096385542169,
+      "tn": 5,
+      "fp": 0,
+      "fn": 81,
+      "tp": 2,
+      "threshold": 0.220978781580925,
+      "label_provenance": "UNVERIFIED",
+      "evidence_status": "EXPLORATORY_UNKNOWN_ANCESTRY_AND_UNVERIFIED_LABELS",
+      "budget_unit": "UNIQUE_PIXEL_IMAGES",
+      "ci_group_unit": "pixel_sha256",
+      "test_groups": 88,
+      "ci95": {
+        "recall": {
+          "low": 0.0,
+          "high": 0.061051829268292654,
+          "valid_replicates": 199
+        },
+        "auc": {
+          "low": 0.5137931034482759,
+          "high": 0.9570509946763798,
+          "valid_replicates": 199
+        }
+      }
+    }
+  },
+  {
+    "method": "finetune",
+    "budget": 5,
+    "seed": 43,
+    "task": "pipeline",
+    "metrics": {
+      "n": 93,
+      "accuracy": 0.07526881720430108,
+      "precision": 1.0,
+      "recall": 0.024096385542168676,
+      "specificity": 1.0,
+      "f1": 0.047058823529411764,
+      "macro_f1": 0.07675703049581414,
+      "auc": 0.6939759036144579,
+      "tn": 10,
+      "fp": 0,
+      "fn": 81,
+      "tp": 2,
+      "label_provenance": "UNVERIFIED",
+      "evidence_status": "EXPLORATORY_UNKNOWN_ANCESTRY_AND_UNVERIFIED_LABELS",
+      "budget_unit": "UNIQUE_PIXEL_IMAGES",
+      "ci_group_unit": "pixel_sha256",
+      "confusion_matrix": [
+        [
+          1,
+          4,
+          0
+        ],
+        [
+          1,
+          4,
+          0
+        ],
+        [
+          35,
+          46,
+          2
+        ]
+      ],
+      "classes": [
+        "no_tumor",
+        "benign",
+        "malignant"
+      ],
+      "presence_threshold": 0.8429667949676514,
+      "subtype_threshold": 0.220978781580925,
+      "score_definition": "presence_score * subtype_score; uncalibrated ranking score",
+      "untyped_test_tumor_rows_excluded": 0,
+      "test_groups": 93,
+      "ci95": {
+        "recall": {
+          "low": 0.0,
+          "high": 0.07063075832742736,
+          "valid_replicates": 200
+        },
+        "auc": {
+          "low": 0.5517788461538462,
+          "high": 0.8294765406162464,
+          "valid_replicates": 200
+        }
+      }
+    }
+  },
+  {
+    "method": "finetune",
+    "budget": 5,
+    "seed": 44,
+    "task": "presence",
+    "metrics": {
+      "n": 93,
+      "accuracy": 0.27956989247311825,
+      "precision": 0.9565217391304348,
+      "recall": 0.25,
+      "specificity": 0.8,
+      "f1": 0.3963963963963964,
+      "macro_f1": 0.2515315315315315,
+      "auc": 0.5477272727272726,
+      "tn": 4,
+      "fp": 1,
+      "fn": 66,
+      "tp": 22,
+      "threshold": 0.4940241873264313,
+      "label_provenance": "UNVERIFIED",
+      "evidence_status": "EXPLORATORY_UNKNOWN_ANCESTRY_AND_UNVERIFIED_LABELS",
+      "budget_unit": "UNIQUE_PIXEL_IMAGES",
+      "ci_group_unit": "pixel_sha256",
+      "test_groups": 93,
+      "ci95": {
+        "recall": {
+          "low": 0.16853932584269662,
+          "high": 0.3448275862068966,
+          "valid_replicates": 200
+        },
+        "auc": {
+          "low": 0.2017280482729921,
+          "high": 0.8690602500947331,
+          "valid_replicates": 200
+        }
+      }
+    }
+  },
+  {
+    "method": "finetune",
+    "budget": 5,
+    "seed": 44,
+    "task": "subtype",
+    "metrics": {
+      "n": 88,
+      "accuracy": 0.9431818181818182,
+      "precision": 0.9534883720930233,
+      "recall": 0.9879518072289156,
+      "specificity": 0.2,
+      "f1": 0.9704142011834319,
+      "macro_f1": 0.6280642434488588,
+      "auc": 0.6144578313253011,
+      "tn": 1,
+      "fp": 4,
+      "fn": 1,
+      "tp": 82,
+      "threshold": 0.04459434747695923,
+      "label_provenance": "UNVERIFIED",
+      "evidence_status": "EXPLORATORY_UNKNOWN_ANCESTRY_AND_UNVERIFIED_LABELS",
+      "budget_unit": "UNIQUE_PIXEL_IMAGES",
+      "ci_group_unit": "pixel_sha256",
+      "test_groups": 88,
+      "ci95": {
+        "recall": {
+          "low": 0.9634146341463414,
+          "high": 1.0,
+          "valid_replicates": 198
+        },
+        "auc": {
+          "low": 0.2308139534883721,
+          "high": 0.8904901960784313,
+          "valid_replicates": 198
+        }
+      }
+    }
+  },
+  {
+    "method": "finetune",
+    "budget": 5,
+    "seed": 44,
+    "task": "pipeline",
+    "metrics": {
+      "n": 93,
+      "accuracy": 0.25806451612903225,
+      "precision": 0.95,
+      "recall": 0.2289156626506024,
+      "specificity": 0.9,
+      "f1": 0.36893203883495146,
+      "macro_f1": 0.24186623516720607,
+      "auc": 0.6421686746987951,
+      "tn": 9,
+      "fp": 1,
+      "fn": 64,
+      "tp": 19,
+      "label_provenance": "UNVERIFIED",
+      "evidence_status": "EXPLORATORY_UNKNOWN_ANCESTRY_AND_UNVERIFIED_LABELS",
+      "budget_unit": "UNIQUE_PIXEL_IMAGES",
+      "ci_group_unit": "pixel_sha256",
+      "confusion_matrix": [
+        [
+          4,
+          1,
+          0
+        ],
+        [
+          3,
+          1,
+          1
+        ],
+        [
+          63,
+          1,
+          19
+        ]
+      ],
+      "classes": [
+        "no_tumor",
+        "benign",
+        "malignant"
+      ],
+      "presence_threshold": 0.4940241873264313,
+      "subtype_threshold": 0.04459434747695923,
+      "score_definition": "presence_score * subtype_score; uncalibrated ranking score",
+      "untyped_test_tumor_rows_excluded": 0,
+      "test_groups": 93,
+      "ci95": {
+        "recall": {
+          "low": 0.14098101265822785,
+          "high": 0.32142857142857145,
+          "valid_replicates": 200
+        },
+        "auc": {
+          "low": 0.4630129506582995,
+          "high": 0.8078314933523267,
+          "valid_replicates": 200
+        }
+      }
+    }
+  },
+  {
+    "method": "finetune",
+    "budget": 10,
+    "seed": 42,
+    "task": "presence",
+    "metrics": {
+      "n": 93,
+      "accuracy": 0.6021505376344086,
+      "precision": 0.9811320754716981,
+      "recall": 0.5909090909090909,
+      "specificity": 0.8,
+      "f1": 0.7375886524822695,
+      "macro_f1": 0.45768321513002364,
+      "auc": 0.8068181818181818,
+      "tn": 4,
+      "fp": 1,
+      "fn": 36,
+      "tp": 52,
+      "threshold": 0.6684840321540833,
+      "label_provenance": "UNVERIFIED",
+      "evidence_status": "EXPLORATORY_UNKNOWN_ANCESTRY_AND_UNVERIFIED_LABELS",
+      "budget_unit": "UNIQUE_PIXEL_IMAGES",
+      "ci_group_unit": "pixel_sha256",
+      "test_groups": 93,
+      "ci95": {
+        "recall": {
+          "low": 0.48809343434343433,
+          "high": 0.6818449197860962,
+          "valid_replicates": 199
+        },
+        "auc": {
+          "low": 0.4440404040404041,
+          "high": 0.9888949938949939,
+          "valid_replicates": 199
+        }
+      }
+    }
+  },
+  {
+    "method": "finetune",
+    "budget": 10,
+    "seed": 42,
+    "task": "subtype",
+    "metrics": {
+      "n": 88,
+      "accuracy": 0.7727272727272727,
+      "precision": 0.9565217391304348,
+      "recall": 0.7951807228915663,
+      "specificity": 0.4,
+      "f1": 0.868421052631579,
+      "macro_f1": 0.5175438596491229,
+      "auc": 0.7012048192771084,
+      "tn": 2,
+      "fp": 3,
+      "fn": 17,
+      "tp": 66,
+      "threshold": 0.08781541138887405,
+      "label_provenance": "UNVERIFIED",
+      "evidence_status": "EXPLORATORY_UNKNOWN_ANCESTRY_AND_UNVERIFIED_LABELS",
+      "budget_unit": "UNIQUE_PIXEL_IMAGES",
+      "ci_group_unit": "pixel_sha256",
+      "test_groups": 88,
+      "ci95": {
+        "recall": {
+          "low": 0.7174789915966386,
+          "high": 0.8795897877223178,
+          "valid_replicates": 199
+        },
+        "auc": {
+          "low": 0.5019179894179895,
+          "high": 0.8985241596638655,
+          "valid_replicates": 199
+        }
+      }
+    }
+  },
+  {
+    "method": "finetune",
+    "budget": 10,
+    "seed": 42,
+    "task": "pipeline",
+    "metrics": {
+      "n": 93,
+      "accuracy": 0.45161290322580644,
+      "precision": 0.9487179487179487,
+      "recall": 0.4457831325301205,
+      "specificity": 0.8,
+      "f1": 0.6065573770491803,
+      "macro_f1": 0.2965327709072317,
+      "auc": 0.7963855421686747,
+      "tn": 8,
+      "fp": 2,
+      "fn": 46,
+      "tp": 37,
+      "label_provenance": "UNVERIFIED",
+      "evidence_status": "EXPLORATORY_UNKNOWN_ANCESTRY_AND_UNVERIFIED_LABELS",
+      "budget_unit": "UNIQUE_PIXEL_IMAGES",
+      "ci_group_unit": "pixel_sha256",
+      "confusion_matrix": [
+        [
+          4,
+          0,
+          1
+        ],
+        [
+          3,
+          1,
+          1
+        ],
+        [
+          33,
+          13,
+          37
+        ]
+      ],
+      "classes": [
+        "no_tumor",
+        "benign",
+        "malignant"
+      ],
+      "presence_threshold": 0.6684840321540833,
+      "subtype_threshold": 0.08781541138887405,
+      "score_definition": "presence_score * subtype_score; uncalibrated ranking score",
+      "untyped_test_tumor_rows_excluded": 0,
+      "test_groups": 93,
+      "ci95": {
+        "recall": {
+          "low": 0.3333333333333333,
+          "high": 0.5542168674698795,
+          "valid_replicates": 200
+        },
+        "auc": {
+          "low": 0.6660233815748521,
+          "high": 0.919438196243956,
+          "valid_replicates": 200
+        }
+      }
+    }
+  },
+  {
+    "method": "finetune",
+    "budget": 10,
+    "seed": 43,
+    "task": "presence",
+    "metrics": {
+      "n": 93,
+      "accuracy": 0.27956989247311825,
+      "precision": 0.8620689655172413,
+      "recall": 0.2840909090909091,
+      "specificity": 0.2,
+      "f1": 0.42735042735042733,
+      "macro_f1": 0.22816796729840208,
+      "auc": 0.284090909090909,
+      "tn": 1,
+      "fp": 4,
+      "fn": 63,
+      "tp": 25,
+      "threshold": 0.7192111015319824,
+      "label_provenance": "UNVERIFIED",
+      "evidence_status": "EXPLORATORY_UNKNOWN_ANCESTRY_AND_UNVERIFIED_LABELS",
+      "budget_unit": "UNIQUE_PIXEL_IMAGES",
+      "ci_group_unit": "pixel_sha256",
+      "test_groups": 93,
+      "ci95": {
+        "recall": {
+          "low": 0.19101123595505617,
+          "high": 0.3872254851889683,
+          "valid_replicates": 196
+        },
+        "auc": {
+          "low": 0.052317415730337075,
+          "high": 0.6064323607427056,
+          "valid_replicates": 196
+        }
+      }
+    }
+  },
+  {
+    "method": "finetune",
+    "budget": 10,
+    "seed": 43,
+    "task": "subtype",
+    "metrics": {
+      "n": 88,
+      "accuracy": 0.09090909090909091,
+      "precision": 1.0,
+      "recall": 0.03614457831325301,
+      "specificity": 1.0,
+      "f1": 0.06976744186046512,
+      "macro_f1": 0.09043927648578812,
+      "auc": 0.6963855421686747,
+      "tn": 5,
+      "fp": 0,
+      "fn": 80,
+      "tp": 3,
+      "threshold": 0.2115122377872467,
+      "label_provenance": "UNVERIFIED",
+      "evidence_status": "EXPLORATORY_UNKNOWN_ANCESTRY_AND_UNVERIFIED_LABELS",
+      "budget_unit": "UNIQUE_PIXEL_IMAGES",
+      "ci_group_unit": "pixel_sha256",
+      "test_groups": 88,
+      "ci95": {
+        "recall": {
+          "low": 0.0,
+          "high": 0.07448801742919375,
+          "valid_replicates": 199
+        },
+        "auc": {
+          "low": 0.5011186974789916,
+          "high": 0.8203453348276826,
+          "valid_replicates": 199
+        }
+      }
+    }
+  },
+  {
+    "method": "finetune",
+    "budget": 10,
+    "seed": 43,
+    "task": "pipeline",
+    "metrics": {
+      "n": 93,
+      "accuracy": 0.06451612903225806,
+      "precision": 1.0,
+      "recall": 0.012048192771084338,
+      "specificity": 1.0,
+      "f1": 0.023809523809523808,
+      "macro_f1": 0.09840642449338104,
+      "auc": 0.3373493975903614,
+      "tn": 10,
+      "fp": 0,
+      "fn": 82,
+      "tp": 1,
+      "label_provenance": "UNVERIFIED",
+      "evidence_status": "EXPLORATORY_UNKNOWN_ANCESTRY_AND_UNVERIFIED_LABELS",
+      "budget_unit": "UNIQUE_PIXEL_IMAGES",
+      "ci_group_unit": "pixel_sha256",
+      "confusion_matrix": [
+        [
+          1,
+          4,
+          0
+        ],
+        [
+          1,
+          4,
+          0
+        ],
+        [
+          62,
+          20,
+          1
+        ]
+      ],
+      "classes": [
+        "no_tumor",
+        "benign",
+        "malignant"
+      ],
+      "presence_threshold": 0.7192111015319824,
+      "subtype_threshold": 0.2115122377872467,
+      "score_definition": "presence_score * subtype_score; uncalibrated ranking score",
+      "untyped_test_tumor_rows_excluded": 0,
+      "test_groups": 93,
+      "ci95": {
+        "recall": {
+          "low": 0.0,
+          "high": 0.04599037690457097,
+          "valid_replicates": 200
+        },
+        "auc": {
+          "low": 0.17585400425230335,
+          "high": 0.5300182085356504,
+          "valid_replicates": 200
+        }
+      }
+    }
+  },
+  {
+    "method": "finetune",
+    "budget": 10,
+    "seed": 44,
+    "task": "presence",
+    "metrics": {
+      "n": 93,
+      "accuracy": 0.11827956989247312,
+      "precision": 1.0,
+      "recall": 0.06818181818181818,
+      "specificity": 1.0,
+      "f1": 0.1276595744680851,
+      "macro_f1": 0.11817761332099908,
+      "auc": 0.6477272727272727,
+      "tn": 5,
+      "fp": 0,
+      "fn": 82,
+      "tp": 6,
+      "threshold": 0.6252705454826355,
+      "label_provenance": "UNVERIFIED",
+      "evidence_status": "EXPLORATORY_UNKNOWN_ANCESTRY_AND_UNVERIFIED_LABELS",
+      "budget_unit": "UNIQUE_PIXEL_IMAGES",
+      "ci_group_unit": "pixel_sha256",
+      "test_groups": 93,
+      "ci95": {
+        "recall": {
+          "low": 0.022222222222222223,
+          "high": 0.12798311184939093,
+          "valid_replicates": 200
+        },
+        "auc": {
+          "low": 0.2996296296296297,
+          "high": 0.9024456521739131,
+          "valid_replicates": 200
+        }
+      }
+    }
+  },
+  {
+    "method": "finetune",
+    "budget": 10,
+    "seed": 44,
+    "task": "subtype",
+    "metrics": {
+      "n": 88,
+      "accuracy": 0.7159090909090909,
+      "precision": 0.9393939393939394,
+      "recall": 0.7469879518072289,
+      "specificity": 0.2,
+      "f1": 0.8322147651006712,
+      "macro_f1": 0.4531444195873726,
+      "auc": 0.5951807228915662,
+      "tn": 1,
+      "fp": 4,
+      "fn": 21,
+      "tp": 62,
+      "threshold": 0.010915035381913185,
+      "label_provenance": "UNVERIFIED",
+      "evidence_status": "EXPLORATORY_UNKNOWN_ANCESTRY_AND_UNVERIFIED_LABELS",
+      "budget_unit": "UNIQUE_PIXEL_IMAGES",
+      "ci_group_unit": "pixel_sha256",
+      "test_groups": 88,
+      "ci95": {
+        "recall": {
+          "low": 0.654728835978836,
+          "high": 0.8334803921568628,
+          "valid_replicates": 198
+        },
+        "auc": {
+          "low": 0.24950980392156863,
+          "high": 0.8020211834733891,
+          "valid_replicates": 198
+        }
+      }
+    }
+  },
+  {
+    "method": "finetune",
+    "budget": 10,
+    "seed": 44,
+    "task": "pipeline",
+    "metrics": {
+      "n": 93,
+      "accuracy": 0.11827956989247312,
+      "precision": 1.0,
+      "recall": 0.07228915662650602,
+      "specificity": 1.0,
+      "f1": 0.1348314606741573,
+      "macro_f1": 0.08117570428269011,
+      "auc": 0.5879518072289157,
+      "tn": 10,
+      "fp": 0,
+      "fn": 77,
+      "tp": 6,
+      "label_provenance": "UNVERIFIED",
+      "evidence_status": "EXPLORATORY_UNKNOWN_ANCESTRY_AND_UNVERIFIED_LABELS",
+      "budget_unit": "UNIQUE_PIXEL_IMAGES",
+      "ci_group_unit": "pixel_sha256",
+      "confusion_matrix": [
+        [
+          5,
+          0,
+          0
+        ],
+        [
+          5,
+          0,
+          0
+        ],
+        [
+          77,
+          0,
+          6
+        ]
+      ],
+      "classes": [
+        "no_tumor",
+        "benign",
+        "malignant"
+      ],
+      "presence_threshold": 0.6252705454826355,
+      "subtype_threshold": 0.010915035381913185,
+      "score_definition": "presence_score * subtype_score; uncalibrated ranking score",
+      "untyped_test_tumor_rows_excluded": 0,
+      "test_groups": 93,
+      "ci95": {
+        "recall": {
+          "low": 0.023522571819425443,
+          "high": 0.13494168681553123,
+          "valid_replicates": 200
+        },
+        "auc": {
+          "low": 0.4235665206886137,
+          "high": 0.7165465631929048,
+          "valid_replicates": 200
+        }
+      }
+    }
+  },
+  {
+    "method": "finetune",
+    "budget": 30,
+    "seed": 42,
+    "task": "presence",
+    "metrics": {
+      "n": 93,
+      "accuracy": 0.6666666666666666,
+      "precision": 0.9672131147540983,
+      "recall": 0.6704545454545454,
+      "specificity": 0.6,
+      "f1": 0.7919463087248322,
+      "macro_f1": 0.4770542354434972,
+      "auc": 0.775,
+      "tn": 3,
+      "fp": 2,
+      "fn": 29,
+      "tp": 59,
+      "threshold": 0.6323332786560059,
+      "label_provenance": "UNVERIFIED",
+      "evidence_status": "EXPLORATORY_UNKNOWN_ANCESTRY_AND_UNVERIFIED_LABELS",
+      "budget_unit": "UNIQUE_PIXEL_IMAGES",
+      "ci_group_unit": "pixel_sha256",
+      "test_groups": 93,
+      "ci95": {
+        "recall": {
+          "low": 0.5568181818181818,
+          "high": 0.7555684754521964,
+          "valid_replicates": 199
+        },
+        "auc": {
+          "low": 0.4763720538720539,
+          "high": 0.9892171717171716,
+          "valid_replicates": 199
+        }
+      }
+    }
+  },
+  {
+    "method": "finetune",
+    "budget": 30,
+    "seed": 42,
+    "task": "subtype",
+    "metrics": {
+      "n": 88,
+      "accuracy": 0.5113636363636364,
+      "precision": 1.0,
+      "recall": 0.4819277108433735,
+      "specificity": 1.0,
+      "f1": 0.6504065040650406,
+      "macro_f1": 0.41954287467402973,
+      "auc": 0.6674698795180724,
+      "tn": 5,
+      "fp": 0,
+      "fn": 43,
+      "tp": 40,
+      "threshold": 0.15791375935077667,
+      "label_provenance": "UNVERIFIED",
+      "evidence_status": "EXPLORATORY_UNKNOWN_ANCESTRY_AND_UNVERIFIED_LABELS",
+      "budget_unit": "UNIQUE_PIXEL_IMAGES",
+      "ci_group_unit": "pixel_sha256",
+      "test_groups": 88,
+      "ci95": {
+        "recall": {
+          "low": 0.3881985294117647,
+          "high": 0.6024096385542169,
+          "valid_replicates": 199
+        },
+        "auc": {
+          "low": 0.5286656936082224,
+          "high": 0.8241706360325022,
+          "valid_replicates": 199
+        }
+      }
+    }
+  },
+  {
+    "method": "finetune",
+    "budget": 30,
+    "seed": 42,
+    "task": "pipeline",
+    "metrics": {
+      "n": 93,
+      "accuracy": 0.41935483870967744,
+      "precision": 0.9428571428571428,
+      "recall": 0.39759036144578314,
+      "specificity": 0.8,
+      "f1": 0.559322033898305,
+      "macro_f1": 0.3050108610524138,
+      "auc": 0.6072289156626506,
+      "tn": 8,
+      "fp": 2,
+      "fn": 50,
+      "tp": 33,
+      "label_provenance": "UNVERIFIED",
+      "evidence_status": "EXPLORATORY_UNKNOWN_ANCESTRY_AND_UNVERIFIED_LABELS",
+      "budget_unit": "UNIQUE_PIXEL_IMAGES",
+      "ci_group_unit": "pixel_sha256",
+      "confusion_matrix": [
+        [
+          3,
+          0,
+          2
+        ],
+        [
+          2,
+          3,
+          0
+        ],
+        [
+          27,
+          23,
+          33
+        ]
+      ],
+      "classes": [
+        "no_tumor",
+        "benign",
+        "malignant"
+      ],
+      "presence_threshold": 0.6323332786560059,
+      "subtype_threshold": 0.15791375935077667,
+      "score_definition": "presence_score * subtype_score; uncalibrated ranking score",
+      "untyped_test_tumor_rows_excluded": 0,
+      "test_groups": 93,
+      "ci95": {
+        "recall": {
+          "low": 0.2940431868950112,
+          "high": 0.5,
+          "valid_replicates": 200
+        },
+        "auc": {
+          "low": 0.4145819646327777,
+          "high": 0.7565073529411765,
+          "valid_replicates": 200
+        }
+      }
+    }
+  },
+  {
+    "method": "finetune",
+    "budget": 30,
+    "seed": 43,
+    "task": "presence",
+    "metrics": {
+      "n": 93,
+      "accuracy": 0.5913978494623656,
+      "precision": 0.9310344827586207,
+      "recall": 0.6136363636363636,
+      "specificity": 0.2,
+      "f1": 0.7397260273972602,
+      "macro_f1": 0.39486301369863014,
+      "auc": 0.36818181818181817,
+      "tn": 1,
+      "fp": 4,
+      "fn": 34,
+      "tp": 54,
+      "threshold": 0.5695396065711975,
+      "label_provenance": "UNVERIFIED",
+      "evidence_status": "EXPLORATORY_UNKNOWN_ANCESTRY_AND_UNVERIFIED_LABELS",
+      "budget_unit": "UNIQUE_PIXEL_IMAGES",
+      "ci_group_unit": "pixel_sha256",
+      "test_groups": 93,
+      "ci95": {
+        "recall": {
+          "low": 0.5163497551138001,
+          "high": 0.709719994653836,
+          "valid_replicates": 196
+        },
+        "auc": {
+          "low": 0.11469780219780219,
+          "high": 0.6936813186813187,
+          "valid_replicates": 196
+        }
+      }
+    }
+  },
+  {
+    "method": "finetune",
+    "budget": 30,
+    "seed": 43,
+    "task": "subtype",
+    "metrics": {
+      "n": 88,
+      "accuracy": 0.8409090909090909,
+      "precision": 0.96,
+      "recall": 0.8674698795180723,
+      "specificity": 0.4,
+      "f1": 0.9113924050632911,
+      "macro_f1": 0.5668073136427567,
+      "auc": 0.7349397590361446,
+      "tn": 2,
+      "fp": 3,
+      "fn": 11,
+      "tp": 72,
+      "threshold": 0.08016818016767502,
+      "label_provenance": "UNVERIFIED",
+      "evidence_status": "EXPLORATORY_UNKNOWN_ANCESTRY_AND_UNVERIFIED_LABELS",
+      "budget_unit": "UNIQUE_PIXEL_IMAGES",
+      "ci_group_unit": "pixel_sha256",
+      "test_groups": 88,
+      "ci95": {
+        "recall": {
+          "low": 0.8047504254112309,
+          "high": 0.9302325581395349,
+          "valid_replicates": 199
+        },
+        "auc": {
+          "low": 0.17026369168357,
+          "high": 0.9660509031198685,
+          "valid_replicates": 199
+        }
+      }
+    }
+  },
+  {
+    "method": "finetune",
+    "budget": 30,
+    "seed": 43,
+    "task": "pipeline",
+    "metrics": {
+      "n": 93,
+      "accuracy": 0.5376344086021505,
+      "precision": 0.9230769230769231,
+      "recall": 0.5783132530120482,
+      "specificity": 0.6,
+      "f1": 0.7111111111111111,
+      "macro_f1": 0.3143097643097643,
+      "auc": 0.5240963855421688,
+      "tn": 6,
+      "fp": 4,
+      "fn": 35,
+      "tp": 48,
+      "label_provenance": "UNVERIFIED",
+      "evidence_status": "EXPLORATORY_UNKNOWN_ANCESTRY_AND_UNVERIFIED_LABELS",
+      "budget_unit": "UNIQUE_PIXEL_IMAGES",
+      "ci_group_unit": "pixel_sha256",
+      "confusion_matrix": [
+        [
+          1,
+          0,
+          4
+        ],
+        [
+          4,
+          1,
+          0
+        ],
+        [
+          30,
+          5,
+          48
+        ]
+      ],
+      "classes": [
+        "no_tumor",
+        "benign",
+        "malignant"
+      ],
+      "presence_threshold": 0.5695396065711975,
+      "subtype_threshold": 0.08016818016767502,
+      "score_definition": "presence_score * subtype_score; uncalibrated ranking score",
+      "untyped_test_tumor_rows_excluded": 0,
+      "test_groups": 93,
+      "ci95": {
+        "recall": {
+          "low": 0.46901455026455025,
+          "high": 0.6708465315172633,
+          "valid_replicates": 200
+        },
+        "auc": {
+          "low": 0.35517746511021264,
+          "high": 0.7729145854145855,
+          "valid_replicates": 200
+        }
+      }
+    }
+  },
+  {
+    "method": "finetune",
+    "budget": 30,
+    "seed": 44,
+    "task": "presence",
+    "metrics": {
+      "n": 93,
+      "accuracy": 0.946236559139785,
+      "precision": 0.9770114942528736,
+      "recall": 0.9659090909090909,
+      "specificity": 0.6,
+      "f1": 0.9714285714285714,
+      "macro_f1": 0.7584415584415585,
+      "auc": 0.7772727272727272,
+      "tn": 3,
+      "fp": 2,
+      "fn": 3,
+      "tp": 85,
+      "threshold": 0.5158554911613464,
+      "label_provenance": "UNVERIFIED",
+      "evidence_status": "EXPLORATORY_UNKNOWN_ANCESTRY_AND_UNVERIFIED_LABELS",
+      "budget_unit": "UNIQUE_PIXEL_IMAGES",
+      "ci_group_unit": "pixel_sha256",
+      "test_groups": 93,
+      "ci95": {
+        "recall": {
+          "low": 0.9292533936651584,
+          "high": 1.0,
+          "valid_replicates": 200
+        },
+        "auc": {
+          "low": 0.48084554334554336,
+          "high": 0.9890139751552796,
+          "valid_replicates": 200
+        }
+      }
+    }
+  },
+  {
+    "method": "finetune",
+    "budget": 30,
+    "seed": 44,
+    "task": "subtype",
+    "metrics": {
+      "n": 88,
+      "accuracy": 0.056818181818181816,
+      "precision": 0.0,
+      "recall": 0.0,
+      "specificity": 1.0,
+      "f1": 0.0,
+      "macro_f1": 0.053763440860215055,
+      "auc": 0.6602409638554216,
+      "tn": 5,
+      "fp": 0,
+      "fn": 83,
+      "tp": 0,
+      "threshold": 0.25925132632255554,
+      "label_provenance": "UNVERIFIED",
+      "evidence_status": "EXPLORATORY_UNKNOWN_ANCESTRY_AND_UNVERIFIED_LABELS",
+      "budget_unit": "UNIQUE_PIXEL_IMAGES",
+      "ci_group_unit": "pixel_sha256",
+      "test_groups": 88,
+      "ci95": {
+        "recall": {
+          "low": 0.0,
+          "high": 0.0,
+          "valid_replicates": 198
+        },
+        "auc": {
+          "low": 0.4049263409067331,
+          "high": 0.9022549019607844,
+          "valid_replicates": 198
+        }
+      }
+    }
+  },
+  {
+    "method": "finetune",
+    "budget": 30,
+    "seed": 44,
+    "task": "pipeline",
+    "metrics": {
+      "n": 93,
+      "accuracy": 0.08602150537634409,
+      "precision": 0.0,
+      "recall": 0.0,
+      "specificity": 1.0,
+      "f1": 0.0,
+      "macro_f1": 0.21805006587615283,
+      "auc": 0.5144578313253012,
+      "tn": 10,
+      "fp": 0,
+      "fn": 83,
+      "tp": 0,
+      "label_provenance": "UNVERIFIED",
+      "evidence_status": "EXPLORATORY_UNKNOWN_ANCESTRY_AND_UNVERIFIED_LABELS",
+      "budget_unit": "UNIQUE_PIXEL_IMAGES",
+      "ci_group_unit": "pixel_sha256",
+      "confusion_matrix": [
+        [
+          3,
+          2,
+          0
+        ],
+        [
+          0,
+          5,
+          0
+        ],
+        [
+          3,
+          80,
+          0
+        ]
+      ],
+      "classes": [
+        "no_tumor",
+        "benign",
+        "malignant"
+      ],
+      "presence_threshold": 0.5158554911613464,
+      "subtype_threshold": 0.25925132632255554,
+      "score_definition": "presence_score * subtype_score; uncalibrated ranking score",
+      "untyped_test_tumor_rows_excluded": 0,
+      "test_groups": 93,
+      "ci95": {
+        "recall": {
+          "low": 0.0,
+          "high": 0.0,
+          "valid_replicates": 200
+        },
+        "auc": {
+          "low": 0.31812499999999994,
+          "high": 0.6985152116402117,
+          "valid_replicates": 200
+        }
+      }
+    }
+  },
+  {
+    "method": "protonet",
+    "budget": 5,
+    "seed": 42,
+    "task": "presence",
+    "metrics": {
+      "n": 93,
+      "accuracy": 0.8924731182795699,
+      "precision": 0.9534883720930233,
+      "recall": 0.9318181818181818,
+      "specificity": 0.2,
+      "f1": 0.9425287356321839,
+      "macro_f1": 0.5545977011494253,
+      "auc": 0.659090909090909,
+      "tn": 1,
+      "fp": 4,
+      "fn": 6,
+      "tp": 82,
+      "threshold": 0.048100557178258896,
+      "label_provenance": "UNVERIFIED",
+      "evidence_status": "EXPLORATORY_UNKNOWN_ANCESTRY_AND_UNVERIFIED_LABELS",
+      "budget_unit": "UNIQUE_PIXEL_IMAGES",
+      "ci_group_unit": "pixel_sha256",
+      "test_groups": 93,
+      "ci95": {
+        "recall": {
+          "low": 0.8844092488639401,
+          "high": 0.97807697274958,
+          "valid_replicates": 199
+        },
+        "auc": {
+          "low": 0.3983770287141074,
+          "high": 0.9002272727272728,
+          "valid_replicates": 199
+        }
+      }
+    }
+  },
+  {
+    "method": "protonet",
+    "budget": 5,
+    "seed": 42,
+    "task": "subtype",
+    "metrics": {
+      "n": 88,
+      "accuracy": 0.4090909090909091,
+      "precision": 1.0,
+      "recall": 0.37349397590361444,
+      "specificity": 1.0,
+      "f1": 0.543859649122807,
+      "macro_f1": 0.3525749858517261,
+      "auc": 0.6240963855421686,
+      "tn": 5,
+      "fp": 0,
+      "fn": 52,
+      "tp": 31,
+      "threshold": 0.044089097529649734,
+      "label_provenance": "UNVERIFIED",
+      "evidence_status": "EXPLORATORY_UNKNOWN_ANCESTRY_AND_UNVERIFIED_LABELS",
+      "budget_unit": "UNIQUE_PIXEL_IMAGES",
+      "ci_group_unit": "pixel_sha256",
+      "test_groups": 88,
+      "ci95": {
+        "recall": {
+          "low": 0.2781933256616801,
+          "high": 0.46531725523973577,
+          "valid_replicates": 199
+        },
+        "auc": {
+          "low": 0.48199404761904757,
+          "high": 0.7791967388398824,
+          "valid_replicates": 199
+        }
+      }
+    }
+  },
+  {
+    "method": "protonet",
+    "budget": 5,
+    "seed": 42,
+    "task": "pipeline",
+    "metrics": {
+      "n": 93,
+      "accuracy": 0.3548387096774194,
+      "precision": 1.0,
+      "recall": 0.3253012048192771,
+      "specificity": 1.0,
+      "f1": 0.4909090909090909,
+      "macro_f1": 0.2712752525252525,
+      "auc": 0.6469879518072289,
+      "tn": 10,
+      "fp": 0,
+      "fn": 56,
+      "tp": 27,
+      "label_provenance": "UNVERIFIED",
+      "evidence_status": "EXPLORATORY_UNKNOWN_ANCESTRY_AND_UNVERIFIED_LABELS",
+      "budget_unit": "UNIQUE_PIXEL_IMAGES",
+      "ci_group_unit": "pixel_sha256",
+      "confusion_matrix": [
+        [
+          1,
+          4,
+          0
+        ],
+        [
+          0,
+          5,
+          0
+        ],
+        [
+          6,
+          50,
+          27
+        ]
+      ],
+      "classes": [
+        "no_tumor",
+        "benign",
+        "malignant"
+      ],
+      "presence_threshold": 0.048100557178258896,
+      "subtype_threshold": 0.044089097529649734,
+      "score_definition": "presence_score * subtype_score; uncalibrated ranking score",
+      "untyped_test_tumor_rows_excluded": 0,
+      "test_groups": 93,
+      "ci95": {
+        "recall": {
+          "low": 0.24417895632444694,
+          "high": 0.42308823529411765,
+          "valid_replicates": 200
+        },
+        "auc": {
+          "low": 0.4971495505832856,
+          "high": 0.7896995342360512,
+          "valid_replicates": 200
+        }
+      }
+    }
+  },
+  {
+    "method": "protonet",
+    "budget": 5,
+    "seed": 43,
+    "task": "presence",
+    "metrics": {
+      "n": 93,
+      "accuracy": 0.956989247311828,
+      "precision": 0.9565217391304348,
+      "recall": 1.0,
+      "specificity": 0.2,
+      "f1": 0.9777777777777777,
+      "macro_f1": 0.6555555555555556,
+      "auc": 0.95,
+      "tn": 1,
+      "fp": 4,
+      "fn": 0,
+      "tp": 88,
+      "threshold": 0.02037673629820347,
+      "label_provenance": "UNVERIFIED",
+      "evidence_status": "EXPLORATORY_UNKNOWN_ANCESTRY_AND_UNVERIFIED_LABELS",
+      "budget_unit": "UNIQUE_PIXEL_IMAGES",
+      "ci_group_unit": "pixel_sha256",
+      "test_groups": 93,
+      "ci95": {
+        "recall": {
+          "low": 1.0,
+          "high": 1.0,
+          "valid_replicates": 196
+        },
+        "auc": {
+          "low": 0.8807234432234432,
+          "high": 1.0,
+          "valid_replicates": 196
+        }
+      }
+    }
+  },
+  {
+    "method": "protonet",
+    "budget": 5,
+    "seed": 43,
+    "task": "subtype",
+    "metrics": {
+      "n": 88,
+      "accuracy": 0.20454545454545456,
+      "precision": 1.0,
+      "recall": 0.1566265060240964,
+      "specificity": 1.0,
+      "f1": 0.2708333333333333,
+      "macro_f1": 0.19791666666666666,
+      "auc": 0.7759036144578313,
+      "tn": 5,
+      "fp": 0,
+      "fn": 70,
+      "tp": 13,
+      "threshold": 0.09723056852817535,
+      "label_provenance": "UNVERIFIED",
+      "evidence_status": "EXPLORATORY_UNKNOWN_ANCESTRY_AND_UNVERIFIED_LABELS",
+      "budget_unit": "UNIQUE_PIXEL_IMAGES",
+      "ci_group_unit": "pixel_sha256",
+      "test_groups": 88,
+      "ci95": {
+        "recall": {
+          "low": 0.0863670581150256,
+          "high": 0.25625564588979216,
+          "valid_replicates": 199
+        },
+        "auc": {
+          "low": 0.4572557471264368,
+          "high": 0.943926820728291,
+          "valid_replicates": 199
+        }
+      }
+    }
+  },
+  {
+    "method": "protonet",
+    "budget": 5,
+    "seed": 43,
+    "task": "pipeline",
+    "metrics": {
+      "n": 93,
+      "accuracy": 0.20430107526881722,
+      "precision": 1.0,
+      "recall": 0.1566265060240964,
+      "specificity": 1.0,
+      "f1": 0.2708333333333333,
+      "macro_f1": 0.24107142857142852,
+      "auc": 0.8072289156626505,
+      "tn": 10,
+      "fp": 0,
+      "fn": 70,
+      "tp": 13,
+      "label_provenance": "UNVERIFIED",
+      "evidence_status": "EXPLORATORY_UNKNOWN_ANCESTRY_AND_UNVERIFIED_LABELS",
+      "budget_unit": "UNIQUE_PIXEL_IMAGES",
+      "ci_group_unit": "pixel_sha256",
+      "confusion_matrix": [
+        [
+          1,
+          4,
+          0
+        ],
+        [
+          0,
+          5,
+          0
+        ],
+        [
+          0,
+          70,
+          13
+        ]
+      ],
+      "classes": [
+        "no_tumor",
+        "benign",
+        "malignant"
+      ],
+      "presence_threshold": 0.02037673629820347,
+      "subtype_threshold": 0.09723056852817535,
+      "score_definition": "presence_score * subtype_score; uncalibrated ranking score",
+      "untyped_test_tumor_rows_excluded": 0,
+      "test_groups": 93,
+      "ci95": {
+        "recall": {
+          "low": 0.07226764199655766,
+          "high": 0.24097424179476526,
+          "valid_replicates": 200
+        },
+        "auc": {
+          "low": 0.6884506993491206,
+          "high": 0.9289280652019845,
+          "valid_replicates": 200
+        }
+      }
+    }
+  },
+  {
+    "method": "protonet",
+    "budget": 5,
+    "seed": 44,
+    "task": "presence",
+    "metrics": {
+      "n": 93,
+      "accuracy": 0.5591397849462365,
+      "precision": 0.9795918367346939,
+      "recall": 0.5454545454545454,
+      "specificity": 0.8,
+      "f1": 0.7007299270072993,
+      "macro_f1": 0.4319976165648741,
+      "auc": 0.6704545454545454,
+      "tn": 4,
+      "fp": 1,
+      "fn": 40,
+      "tp": 48,
+      "threshold": 0.42296403646469116,
+      "label_provenance": "UNVERIFIED",
+      "evidence_status": "EXPLORATORY_UNKNOWN_ANCESTRY_AND_UNVERIFIED_LABELS",
+      "budget_unit": "UNIQUE_PIXEL_IMAGES",
+      "ci_group_unit": "pixel_sha256",
+      "test_groups": 93,
+      "ci95": {
+        "recall": {
+          "low": 0.4380805243445693,
+          "high": 0.6386823154687716,
+          "valid_replicates": 200
+        },
+        "auc": {
+          "low": 0.46795875420875416,
+          "high": 0.8412720706260034,
+          "valid_replicates": 200
+        }
+      }
+    }
+  },
+  {
+    "method": "protonet",
+    "budget": 5,
+    "seed": 44,
+    "task": "subtype",
+    "metrics": {
+      "n": 88,
+      "accuracy": 0.3068181818181818,
+      "precision": 0.9583333333333334,
+      "recall": 0.27710843373493976,
+      "specificity": 0.8,
+      "f1": 0.42990654205607476,
+      "macro_f1": 0.272924285520791,
+      "auc": 0.436144578313253,
+      "tn": 4,
+      "fp": 1,
+      "fn": 60,
+      "tp": 23,
+      "threshold": 1.5998184608179145e-05,
+      "label_provenance": "UNVERIFIED",
+      "evidence_status": "EXPLORATORY_UNKNOWN_ANCESTRY_AND_UNVERIFIED_LABELS",
+      "budget_unit": "UNIQUE_PIXEL_IMAGES",
+      "ci_group_unit": "pixel_sha256",
+      "test_groups": 88,
+      "ci95": {
+        "recall": {
+          "low": 0.18485051316376616,
+          "high": 0.3577100840336134,
+          "valid_replicates": 198
+        },
+        "auc": {
+          "low": 0.24372923588039866,
+          "high": 0.5711101549053356,
+          "valid_replicates": 198
+        }
+      }
+    }
+  },
+  {
+    "method": "protonet",
+    "budget": 5,
+    "seed": 44,
+    "task": "pipeline",
+    "metrics": {
+      "n": 93,
+      "accuracy": 0.21505376344086022,
+      "precision": 0.9230769230769231,
+      "recall": 0.14457831325301204,
+      "specificity": 0.9,
+      "f1": 0.25,
+      "macro_f1": 0.2027957524473204,
+      "auc": 0.4891566265060241,
+      "tn": 9,
+      "fp": 1,
+      "fn": 71,
+      "tp": 12,
+      "label_provenance": "UNVERIFIED",
+      "evidence_status": "EXPLORATORY_UNKNOWN_ANCESTRY_AND_UNVERIFIED_LABELS",
+      "budget_unit": "UNIQUE_PIXEL_IMAGES",
+      "ci_group_unit": "pixel_sha256",
+      "confusion_matrix": [
+        [
+          4,
+          1,
+          0
+        ],
+        [
+          0,
+          4,
+          1
+        ],
+        [
+          40,
+          31,
+          12
+        ]
+      ],
+      "classes": [
+        "no_tumor",
+        "benign",
+        "malignant"
+      ],
+      "presence_threshold": 0.42296403646469116,
+      "subtype_threshold": 1.5998184608179145e-05,
+      "score_definition": "presence_score * subtype_score; uncalibrated ranking score",
+      "untyped_test_tumor_rows_excluded": 0,
+      "test_groups": 93,
+      "ci95": {
+        "recall": {
+          "low": 0.07488970588235294,
+          "high": 0.21195839311334294,
+          "valid_replicates": 200
+        },
+        "auc": {
+          "low": 0.3399456037096487,
+          "high": 0.6342712228223238,
+          "valid_replicates": 200
+        }
+      }
+    }
+  },
+  {
+    "method": "protonet",
+    "budget": 10,
+    "seed": 42,
+    "task": "presence",
+    "metrics": {
+      "n": 93,
+      "accuracy": 0.9354838709677419,
+      "precision": 0.9456521739130435,
+      "recall": 0.9886363636363636,
+      "specificity": 0.0,
+      "f1": 0.9666666666666667,
+      "macro_f1": 0.48333333333333334,
+      "auc": 0.42613636363636365,
+      "tn": 0,
+      "fp": 5,
+      "fn": 1,
+      "tp": 87,
+      "threshold": 0.8151129484176636,
+      "label_provenance": "UNVERIFIED",
+      "evidence_status": "EXPLORATORY_UNKNOWN_ANCESTRY_AND_UNVERIFIED_LABELS",
+      "budget_unit": "UNIQUE_PIXEL_IMAGES",
+      "ci_group_unit": "pixel_sha256",
+      "test_groups": 93,
+      "ci95": {
+        "recall": {
+          "low": 0.9650957592339262,
+          "high": 1.0,
+          "valid_replicates": 199
+        },
+        "auc": {
+          "low": 0.3749246987951807,
+          "high": 0.46513632718524456,
+          "valid_replicates": 199
+        }
+      }
+    }
+  },
+  {
+    "method": "protonet",
+    "budget": 10,
+    "seed": 42,
+    "task": "subtype",
+    "metrics": {
+      "n": 88,
+      "accuracy": 0.9431818181818182,
+      "precision": 0.9431818181818182,
+      "recall": 1.0,
+      "specificity": 0.0,
+      "f1": 0.9707602339181286,
+      "macro_f1": 0.4853801169590643,
+      "auc": 0.26987951807228916,
+      "tn": 0,
+      "fp": 5,
+      "fn": 0,
+      "tp": 83,
+      "threshold": 2.243015478597954e-05,
+      "label_provenance": "UNVERIFIED",
+      "evidence_status": "EXPLORATORY_UNKNOWN_ANCESTRY_AND_UNVERIFIED_LABELS",
+      "budget_unit": "UNIQUE_PIXEL_IMAGES",
+      "ci_group_unit": "pixel_sha256",
+      "test_groups": 88,
+      "ci95": {
+        "recall": {
+          "low": 1.0,
+          "high": 1.0,
+          "valid_replicates": 199
+        },
+        "auc": {
+          "low": 0.1492406844818153,
+          "high": 0.39604166666666657,
+          "valid_replicates": 199
+        }
+      }
+    }
+  },
+  {
+    "method": "protonet",
+    "budget": 10,
+    "seed": 42,
+    "task": "pipeline",
+    "metrics": {
+      "n": 93,
+      "accuracy": 0.8817204301075269,
+      "precision": 0.8913043478260869,
+      "recall": 0.9879518072289156,
+      "specificity": 0.0,
+      "f1": 0.9371428571428572,
+      "macro_f1": 0.31238095238095237,
+      "auc": 0.38433734939759034,
+      "tn": 0,
+      "fp": 10,
+      "fn": 1,
+      "tp": 82,
+      "label_provenance": "UNVERIFIED",
+      "evidence_status": "EXPLORATORY_UNKNOWN_ANCESTRY_AND_UNVERIFIED_LABELS",
+      "budget_unit": "UNIQUE_PIXEL_IMAGES",
+      "ci_group_unit": "pixel_sha256",
+      "confusion_matrix": [
+        [
+          0,
+          0,
+          5
+        ],
+        [
+          0,
+          0,
+          5
+        ],
+        [
+          1,
+          0,
+          82
+        ]
+      ],
+      "classes": [
+        "no_tumor",
+        "benign",
+        "malignant"
+      ],
+      "presence_threshold": 0.8151129484176636,
+      "subtype_threshold": 2.243015478597954e-05,
+      "score_definition": "presence_score * subtype_score; uncalibrated ranking score",
+      "untyped_test_tumor_rows_excluded": 0,
+      "test_groups": 93,
+      "ci95": {
+        "recall": {
+          "low": 0.9615259740259741,
+          "high": 1.0,
+          "valid_replicates": 200
+        },
+        "auc": {
+          "low": 0.21561933705829056,
+          "high": 0.610905403828198,
+          "valid_replicates": 200
+        }
+      }
+    }
+  },
+  {
+    "method": "protonet",
+    "budget": 10,
+    "seed": 43,
+    "task": "presence",
+    "metrics": {
+      "n": 93,
+      "accuracy": 0.7634408602150538,
+      "precision": 0.9459459459459459,
+      "recall": 0.7954545454545454,
+      "specificity": 0.2,
+      "f1": 0.8641975308641975,
+      "macro_f1": 0.4737654320987654,
+      "auc": 0.6227272727272728,
+      "tn": 1,
+      "fp": 4,
+      "fn": 18,
+      "tp": 70,
+      "threshold": 0.4286259710788727,
+      "label_provenance": "UNVERIFIED",
+      "evidence_status": "EXPLORATORY_UNKNOWN_ANCESTRY_AND_UNVERIFIED_LABELS",
+      "budget_unit": "UNIQUE_PIXEL_IMAGES",
+      "ci_group_unit": "pixel_sha256",
+      "test_groups": 93,
+      "ci95": {
+        "recall": {
+          "low": 0.7068820224719101,
+          "high": 0.8771480502313285,
+          "valid_replicates": 196
+        },
+        "auc": {
+          "low": 0.238061797752809,
+          "high": 0.884134594687675,
+          "valid_replicates": 196
+        }
+      }
+    }
+  },
+  {
+    "method": "protonet",
+    "budget": 10,
+    "seed": 43,
+    "task": "subtype",
+    "metrics": {
+      "n": 88,
+      "accuracy": 0.1590909090909091,
+      "precision": 1.0,
+      "recall": 0.10843373493975904,
+      "specificity": 1.0,
+      "f1": 0.1956521739130435,
+      "macro_f1": 0.15734989648033126,
+      "auc": 0.5903614457831325,
+      "tn": 5,
+      "fp": 0,
+      "fn": 74,
+      "tp": 9,
+      "threshold": 0.3828027844429016,
+      "label_provenance": "UNVERIFIED",
+      "evidence_status": "EXPLORATORY_UNKNOWN_ANCESTRY_AND_UNVERIFIED_LABELS",
+      "budget_unit": "UNIQUE_PIXEL_IMAGES",
+      "ci_group_unit": "pixel_sha256",
+      "test_groups": 88,
+      "ci95": {
+        "recall": {
+          "low": 0.04759103641456582,
+          "high": 0.17081581160639192,
+          "valid_replicates": 199
+        },
+        "auc": {
+          "low": 0.2974439775910364,
+          "high": 0.8956794345645234,
+          "valid_replicates": 199
+        }
+      }
+    }
+  },
+  {
+    "method": "protonet",
+    "budget": 10,
+    "seed": 43,
+    "task": "pipeline",
+    "metrics": {
+      "n": 93,
+      "accuracy": 0.13978494623655913,
+      "precision": 1.0,
+      "recall": 0.08433734939759036,
+      "specificity": 1.0,
+      "f1": 0.15555555555555556,
+      "macro_f1": 0.1259259259259259,
+      "auc": 0.48313253012048196,
+      "tn": 10,
+      "fp": 0,
+      "fn": 76,
+      "tp": 7,
+      "label_provenance": "UNVERIFIED",
+      "evidence_status": "EXPLORATORY_UNKNOWN_ANCESTRY_AND_UNVERIFIED_LABELS",
+      "budget_unit": "UNIQUE_PIXEL_IMAGES",
+      "ci_group_unit": "pixel_sha256",
+      "confusion_matrix": [
+        [
+          1,
+          4,
+          0
+        ],
+        [
+          0,
+          5,
+          0
+        ],
+        [
+          18,
+          58,
+          7
+        ]
+      ],
+      "classes": [
+        "no_tumor",
+        "benign",
+        "malignant"
+      ],
+      "presence_threshold": 0.4286259710788727,
+      "subtype_threshold": 0.3828027844429016,
+      "score_definition": "presence_score * subtype_score; uncalibrated ranking score",
+      "untyped_test_tumor_rows_excluded": 0,
+      "test_groups": 93,
+      "ci95": {
+        "recall": {
+          "low": 0.03528385772913817,
+          "high": 0.1446223920070526,
+          "valid_replicates": 200
+        },
+        "auc": {
+          "low": 0.29644671019971736,
+          "high": 0.658291672436874,
+          "valid_replicates": 200
+        }
+      }
+    }
+  },
+  {
+    "method": "protonet",
+    "budget": 10,
+    "seed": 44,
+    "task": "presence",
+    "metrics": {
+      "n": 93,
+      "accuracy": 0.7634408602150538,
+      "precision": 0.9459459459459459,
+      "recall": 0.7954545454545454,
+      "specificity": 0.2,
+      "f1": 0.8641975308641975,
+      "macro_f1": 0.4737654320987654,
+      "auc": 0.6568181818181817,
+      "tn": 1,
+      "fp": 4,
+      "fn": 18,
+      "tp": 70,
+      "threshold": 0.1566232144832611,
+      "label_provenance": "UNVERIFIED",
+      "evidence_status": "EXPLORATORY_UNKNOWN_ANCESTRY_AND_UNVERIFIED_LABELS",
+      "budget_unit": "UNIQUE_PIXEL_IMAGES",
+      "ci_group_unit": "pixel_sha256",
+      "test_groups": 93,
+      "ci95": {
+        "recall": {
+          "low": 0.6902472527472527,
+          "high": 0.8810215946843853,
+          "valid_replicates": 200
+        },
+        "auc": {
+          "low": 0.48518849206349207,
+          "high": 0.8140109890109892,
+          "valid_replicates": 200
+        }
+      }
+    }
+  },
+  {
+    "method": "protonet",
+    "budget": 10,
+    "seed": 44,
+    "task": "subtype",
+    "metrics": {
+      "n": 88,
+      "accuracy": 0.7386363636363636,
+      "precision": 0.9411764705882353,
+      "recall": 0.7710843373493976,
+      "specificity": 0.2,
+      "f1": 0.847682119205298,
+      "macro_f1": 0.463841059602649,
+      "auc": 0.5710843373493977,
+      "tn": 1,
+      "fp": 4,
+      "fn": 19,
+      "tp": 64,
+      "threshold": 0.00202537071891129,
+      "label_provenance": "UNVERIFIED",
+      "evidence_status": "EXPLORATORY_UNKNOWN_ANCESTRY_AND_UNVERIFIED_LABELS",
+      "budget_unit": "UNIQUE_PIXEL_IMAGES",
+      "ci_group_unit": "pixel_sha256",
+      "test_groups": 88,
+      "ci95": {
+        "recall": {
+          "low": 0.6789792768959436,
+          "high": 0.8537907728474875,
+          "valid_replicates": 198
+        },
+        "auc": {
+          "low": 0.2937455705173636,
+          "high": 0.7854686613726602,
+          "valid_replicates": 198
+        }
+      }
+    }
+  },
+  {
+    "method": "protonet",
+    "budget": 10,
+    "seed": 44,
+    "task": "pipeline",
+    "metrics": {
+      "n": 93,
+      "accuracy": 0.6021505376344086,
+      "precision": 0.9152542372881356,
+      "recall": 0.6506024096385542,
+      "specificity": 0.5,
+      "f1": 0.7605633802816901,
+      "macro_f1": 0.3146322378716745,
+      "auc": 0.6566265060240964,
+      "tn": 5,
+      "fp": 5,
+      "fn": 29,
+      "tp": 54,
+      "label_provenance": "UNVERIFIED",
+      "evidence_status": "EXPLORATORY_UNKNOWN_ANCESTRY_AND_UNVERIFIED_LABELS",
+      "budget_unit": "UNIQUE_PIXEL_IMAGES",
+      "ci_group_unit": "pixel_sha256",
+      "confusion_matrix": [
+        [
+          1,
+          3,
+          1
+        ],
+        [
+          0,
+          1,
+          4
+        ],
+        [
+          18,
+          11,
+          54
+        ]
+      ],
+      "classes": [
+        "no_tumor",
+        "benign",
+        "malignant"
+      ],
+      "presence_threshold": 0.1566232144832611,
+      "subtype_threshold": 0.00202537071891129,
+      "score_definition": "presence_score * subtype_score; uncalibrated ranking score",
+      "untyped_test_tumor_rows_excluded": 0,
+      "test_groups": 93,
+      "ci95": {
+        "recall": {
+          "low": 0.5513456686291001,
+          "high": 0.7466708860759494,
+          "valid_replicates": 200
+        },
+        "auc": {
+          "low": 0.4862098560354375,
+          "high": 0.8083361929398514,
+          "valid_replicates": 200
+        }
+      }
+    }
+  },
+  {
+    "method": "protonet",
+    "budget": 30,
+    "seed": 42,
+    "task": "presence",
+    "metrics": {
+      "n": 93,
+      "accuracy": 0.5161290322580645,
+      "precision": 0.9574468085106383,
+      "recall": 0.5113636363636364,
+      "specificity": 0.6,
+      "f1": 0.6666666666666666,
+      "macro_f1": 0.39215686274509803,
+      "auc": 0.6454545454545455,
+      "tn": 3,
+      "fp": 2,
+      "fn": 43,
+      "tp": 45,
+      "threshold": 0.9896661043167114,
+      "label_provenance": "UNVERIFIED",
+      "evidence_status": "EXPLORATORY_UNKNOWN_ANCESTRY_AND_UNVERIFIED_LABELS",
+      "budget_unit": "UNIQUE_PIXEL_IMAGES",
+      "ci_group_unit": "pixel_sha256",
+      "test_groups": 93,
+      "ci95": {
+        "recall": {
+          "low": 0.3905825496342738,
+          "high": 0.6125017717930543,
+          "valid_replicates": 199
+        },
+        "auc": {
+          "low": 0.4343078460769615,
+          "high": 0.9342727497221879,
+          "valid_replicates": 199
+        }
+      }
+    }
+  },
+  {
+    "method": "protonet",
+    "budget": 30,
+    "seed": 42,
+    "task": "subtype",
+    "metrics": {
+      "n": 88,
+      "accuracy": 0.20454545454545456,
+      "precision": 1.0,
+      "recall": 0.1566265060240964,
+      "specificity": 1.0,
+      "f1": 0.2708333333333333,
+      "macro_f1": 0.19791666666666666,
+      "auc": 0.5060240963855422,
+      "tn": 5,
+      "fp": 0,
+      "fn": 70,
+      "tp": 13,
+      "threshold": 0.0048848590813577175,
+      "label_provenance": "UNVERIFIED",
+      "evidence_status": "EXPLORATORY_UNKNOWN_ANCESTRY_AND_UNVERIFIED_LABELS",
+      "budget_unit": "UNIQUE_PIXEL_IMAGES",
+      "ci_group_unit": "pixel_sha256",
+      "test_groups": 88,
+      "ci95": {
+        "recall": {
+          "low": 0.0884982028441944,
+          "high": 0.23185034628124054,
+          "valid_replicates": 199
+        },
+        "auc": {
+          "low": 0.348546511627907,
+          "high": 0.6750030637254901,
+          "valid_replicates": 199
+        }
+      }
+    }
+  },
+  {
+    "method": "protonet",
+    "budget": 30,
+    "seed": 42,
+    "task": "pipeline",
+    "metrics": {
+      "n": 93,
+      "accuracy": 0.17204301075268819,
+      "precision": 1.0,
+      "recall": 0.12048192771084337,
+      "specificity": 1.0,
+      "f1": 0.21505376344086022,
+      "macro_f1": 0.1585193217071775,
+      "auc": 0.7096385542168675,
+      "tn": 10,
+      "fp": 0,
+      "fn": 73,
+      "tp": 10,
+      "label_provenance": "UNVERIFIED",
+      "evidence_status": "EXPLORATORY_UNKNOWN_ANCESTRY_AND_UNVERIFIED_LABELS",
+      "budget_unit": "UNIQUE_PIXEL_IMAGES",
+      "ci_group_unit": "pixel_sha256",
+      "confusion_matrix": [
+        [
+          3,
+          2,
+          0
+        ],
+        [
+          2,
+          3,
+          0
+        ],
+        [
+          41,
+          32,
+          10
+        ]
+      ],
+      "classes": [
+        "no_tumor",
+        "benign",
+        "malignant"
+      ],
+      "presence_threshold": 0.9896661043167114,
+      "subtype_threshold": 0.0048848590813577175,
+      "score_definition": "presence_score * subtype_score; uncalibrated ranking score",
+      "untyped_test_tumor_rows_excluded": 0,
+      "test_groups": 93,
+      "ci95": {
+        "recall": {
+          "low": 0.04760504201680672,
+          "high": 0.19530342624854824,
+          "valid_replicates": 200
+        },
+        "auc": {
+          "low": 0.5567163009404389,
+          "high": 0.8694044361930822,
+          "valid_replicates": 200
+        }
+      }
+    }
+  },
+  {
+    "method": "protonet",
+    "budget": 30,
+    "seed": 43,
+    "task": "presence",
+    "metrics": {
+      "n": 93,
+      "accuracy": 0.6451612903225806,
+      "precision": 0.9824561403508771,
+      "recall": 0.6363636363636364,
+      "specificity": 0.8,
+      "f1": 0.7724137931034483,
+      "macro_f1": 0.4837678721614802,
+      "auc": 0.7727272727272727,
+      "tn": 4,
+      "fp": 1,
+      "fn": 32,
+      "tp": 56,
+      "threshold": 0.31461742520332336,
+      "label_provenance": "UNVERIFIED",
+      "evidence_status": "EXPLORATORY_UNKNOWN_ANCESTRY_AND_UNVERIFIED_LABELS",
+      "budget_unit": "UNIQUE_PIXEL_IMAGES",
+      "ci_group_unit": "pixel_sha256",
+      "test_groups": 93,
+      "ci95": {
+        "recall": {
+          "low": 0.5403898768809849,
+          "high": 0.7483228980322003,
+          "valid_replicates": 196
+        },
+        "auc": {
+          "low": 0.5212912087912088,
+          "high": 0.9707136613386613,
+          "valid_replicates": 196
+        }
+      }
+    }
+  },
+  {
+    "method": "protonet",
+    "budget": 30,
+    "seed": 43,
+    "task": "subtype",
+    "metrics": {
+      "n": 88,
+      "accuracy": 0.4659090909090909,
+      "precision": 0.95,
+      "recall": 0.4578313253012048,
+      "specificity": 0.6,
+      "f1": 0.6178861788617886,
+      "macro_f1": 0.36554686301579997,
+      "auc": 0.6433734939759036,
+      "tn": 3,
+      "fp": 2,
+      "fn": 45,
+      "tp": 38,
+      "threshold": 0.0021880902349948883,
+      "label_provenance": "UNVERIFIED",
+      "evidence_status": "EXPLORATORY_UNKNOWN_ANCESTRY_AND_UNVERIFIED_LABELS",
+      "budget_unit": "UNIQUE_PIXEL_IMAGES",
+      "ci_group_unit": "pixel_sha256",
+      "test_groups": 88,
+      "ci95": {
+        "recall": {
+          "low": 0.35714285714285715,
+          "high": 0.5679945449325293,
+          "valid_replicates": 199
+        },
+        "auc": {
+          "low": 0.3598837209302325,
+          "high": 0.8697128851540614,
+          "valid_replicates": 199
+        }
+      }
+    }
+  },
+  {
+    "method": "protonet",
+    "budget": 30,
+    "seed": 43,
+    "task": "pipeline",
+    "metrics": {
+      "n": 93,
+      "accuracy": 0.3763440860215054,
+      "precision": 0.967741935483871,
+      "recall": 0.3614457831325301,
+      "specificity": 0.9,
+      "f1": 0.5263157894736842,
+      "macro_f1": 0.26198462324181815,
+      "auc": 0.6204819277108433,
+      "tn": 9,
+      "fp": 1,
+      "fn": 53,
+      "tp": 30,
+      "label_provenance": "UNVERIFIED",
+      "evidence_status": "EXPLORATORY_UNKNOWN_ANCESTRY_AND_UNVERIFIED_LABELS",
+      "budget_unit": "UNIQUE_PIXEL_IMAGES",
+      "ci_group_unit": "pixel_sha256",
+      "confusion_matrix": [
+        [
+          4,
+          0,
+          1
+        ],
+        [
+          4,
+          1,
+          0
+        ],
+        [
+          28,
+          25,
+          30
+        ]
+      ],
+      "classes": [
+        "no_tumor",
+        "benign",
+        "malignant"
+      ],
+      "presence_threshold": 0.31461742520332336,
+      "subtype_threshold": 0.0021880902349948883,
+      "score_definition": "presence_score * subtype_score; uncalibrated ranking score",
+      "untyped_test_tumor_rows_excluded": 0,
+      "test_groups": 93,
+      "ci95": {
+        "recall": {
+          "low": 0.2649813539873781,
+          "high": 0.4820746400235087,
+          "valid_replicates": 200
+        },
+        "auc": {
+          "low": 0.4288956122900089,
+          "high": 0.7840581880900509,
+          "valid_replicates": 200
+        }
+      }
+    }
+  },
+  {
+    "method": "protonet",
+    "budget": 30,
+    "seed": 44,
+    "task": "presence",
+    "metrics": {
+      "n": 93,
+      "accuracy": 0.8064516129032258,
+      "precision": 0.9487179487179487,
+      "recall": 0.8409090909090909,
+      "specificity": 0.2,
+      "f1": 0.891566265060241,
+      "macro_f1": 0.49578313253012046,
+      "auc": 0.6568181818181817,
+      "tn": 1,
+      "fp": 4,
+      "fn": 14,
+      "tp": 74,
+      "threshold": 0.3412511944770813,
+      "label_provenance": "UNVERIFIED",
+      "evidence_status": "EXPLORATORY_UNKNOWN_ANCESTRY_AND_UNVERIFIED_LABELS",
+      "budget_unit": "UNIQUE_PIXEL_IMAGES",
+      "ci_group_unit": "pixel_sha256",
+      "test_groups": 93,
+      "ci95": {
+        "recall": {
+          "low": 0.75,
+          "high": 0.9186732427488895,
+          "valid_replicates": 200
+        },
+        "auc": {
+          "low": 0.455121722846442,
+          "high": 0.8627747252747253,
+          "valid_replicates": 200
+        }
+      }
+    }
+  },
+  {
+    "method": "protonet",
+    "budget": 30,
+    "seed": 44,
+    "task": "subtype",
+    "metrics": {
+      "n": 88,
+      "accuracy": 0.625,
+      "precision": 1.0,
+      "recall": 0.6024096385542169,
+      "specificity": 1.0,
+      "f1": 0.7518796992481203,
+      "macro_f1": 0.492218919391502,
+      "auc": 0.7590361445783133,
+      "tn": 5,
+      "fp": 0,
+      "fn": 33,
+      "tp": 50,
+      "threshold": 0.0006737117073498666,
+      "label_provenance": "UNVERIFIED",
+      "evidence_status": "EXPLORATORY_UNKNOWN_ANCESTRY_AND_UNVERIFIED_LABELS",
+      "budget_unit": "UNIQUE_PIXEL_IMAGES",
+      "ci_group_unit": "pixel_sha256",
+      "test_groups": 88,
+      "ci95": {
+        "recall": {
+          "low": 0.5,
+          "high": 0.7001785714285713,
+          "valid_replicates": 198
+        },
+        "auc": {
+          "low": 0.6268207282913165,
+          "high": 0.8605854049719326,
+          "valid_replicates": 198
+        }
+      }
+    }
+  },
+  {
+    "method": "protonet",
+    "budget": 30,
+    "seed": 44,
+    "task": "pipeline",
+    "metrics": {
+      "n": 93,
+      "accuracy": 0.5591397849462365,
+      "precision": 0.9787234042553191,
+      "recall": 0.5542168674698795,
+      "specificity": 0.9,
+      "f1": 0.7076923076923077,
+      "macro_f1": 0.3618233618233619,
+      "auc": 0.7024096385542169,
+      "tn": 9,
+      "fp": 1,
+      "fn": 37,
+      "tp": 46,
+      "label_provenance": "UNVERIFIED",
+      "evidence_status": "EXPLORATORY_UNKNOWN_ANCESTRY_AND_UNVERIFIED_LABELS",
+      "budget_unit": "UNIQUE_PIXEL_IMAGES",
+      "ci_group_unit": "pixel_sha256",
+      "confusion_matrix": [
+        [
+          1,
+          3,
+          1
+        ],
+        [
+          0,
+          5,
+          0
+        ],
+        [
+          14,
+          23,
+          46
+        ]
+      ],
+      "classes": [
+        "no_tumor",
+        "benign",
+        "malignant"
+      ],
+      "presence_threshold": 0.3412511944770813,
+      "subtype_threshold": 0.0006737117073498666,
+      "score_definition": "presence_score * subtype_score; uncalibrated ranking score",
+      "untyped_test_tumor_rows_excluded": 0,
+      "test_groups": 93,
+      "ci95": {
+        "recall": {
+          "low": 0.4457145035839561,
+          "high": 0.6628875968992248,
+          "valid_replicates": 200
+        },
+        "auc": {
+          "low": 0.5912880283788184,
+          "high": 0.797391975308642,
+          "valid_replicates": 200
+        }
+      }
+    }
+  }
+]
