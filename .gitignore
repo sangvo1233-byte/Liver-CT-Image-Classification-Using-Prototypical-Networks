@@ -10,6 +10,8 @@ data/
 # TensorBoard runs
 runs_protonet_*/
 runs/
+prepared/
+checks/
 
 # Python
 __pycache__/

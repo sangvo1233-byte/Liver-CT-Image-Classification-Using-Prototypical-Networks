@@ -1,0 +1,40 @@
+{
+  "result_sets": 81,
+  "stage_artifacts": 54,
+  "paired_configurations": 27,
+  "summary_rows": 27,
+  "methods": [
+    "frozen",
+    "finetune",
+    "protonet"
+  ],
+  "budgets": [
+    5,
+    10,
+    30
+  ],
+  "seeds": [
+    42,
+    43,
+    44
+  ],
+  "support_matched_across_methods": true,
+  "selected_support_train_only": true,
+  "checkpoint_and_threshold_source": "validation",
+  "all_validation_recalls_at_least": 0.9,
+  "reloaded_scores_match_saved_predictions": true,
+  "maximum_score_difference": 0.0,
+  "metrics_match_prediction_rows": true,
+  "aggregate_mean_and_sample_std_checked": true,
+  "original_images_hash_checked_and_unchanged": 1293,
+  "app_checked": true,
+  "patient_and_original_identifiers_not_invented": true,
+  "clinical_validation": false,
+  "evidence_status": "EXPLORATORY_UNKNOWN_ANCESTRY_AND_UNVERIFIED_LABELS",
+  "code_sha256": {
+    "prepare_data.py": "bd710faaf8ff8c454931ab051d8948d6a7c097333e5c263590314b9b9907ed77",
+    "liver_ct.py": "7f871c8b1c61eaaac4e7118bbda56214d9f56ee64337575ad7c6e3f21ebe1b8f",
+    "run_experiments.py": "ae074cfdb14ff390c927c23ae4b3506b67031123f560d0d7c714f5ca27b6b955"
+  },
+  "manifest_sha256": "b17201c2a7a1365a5d87b45fd890040b36b235e4bb33d4f35ad17d36215df4dc"
+}

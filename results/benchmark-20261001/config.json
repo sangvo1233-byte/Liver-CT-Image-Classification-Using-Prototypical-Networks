@@ -1,0 +1,56 @@
+{
+  "manifest": "prepared/current_files/manifest.csv",
+  "data_root": "data",
+  "out": "runs/benchmark",
+  "methods": [
+    "frozen",
+    "finetune",
+    "protonet"
+  ],
+  "budgets": [
+    5,
+    10,
+    30
+  ],
+  "seeds": [
+    42,
+    43,
+    44
+  ],
+  "steps": 500,
+  "val_every": 10,
+  "patience": 10,
+  "episode_support": 5,
+  "episode_query": 5,
+  "batch_size": 32,
+  "image_size": 224,
+  "lr": 5e-05,
+  "target_recall": 0.9,
+  "bootstrap": 200,
+  "threads": 4,
+  "device": "cuda",
+  "random_init": false,
+  "allow_image_groups": false,
+  "allow_unverified_labels": false,
+  "exploratory_files": true,
+  "group_by": "pixel_sha256",
+  "budget_unit": "UNIQUE_PIXEL_IMAGES",
+  "label_provenance": "UNVERIFIED",
+  "code_sha256": {
+    "prepare_data.py": "bd710faaf8ff8c454931ab051d8948d6a7c097333e5c263590314b9b9907ed77",
+    "liver_ct.py": "7f871c8b1c61eaaac4e7118bbda56214d9f56ee64337575ad7c6e3f21ebe1b8f",
+    "run_experiments.py": "ae074cfdb14ff390c927c23ae4b3506b67031123f560d0d7c714f5ca27b6b955"
+  },
+  "manifest_sha256": "b17201c2a7a1365a5d87b45fd890040b36b235e4bb33d4f35ad17d36215df4dc",
+  "python": "3.12.10",
+  "torch": "2.5.1+cu121",
+  "torchvision": "0.20.1+cu121",
+  "numpy": "1.26.4",
+  "sklearn": "1.5.2",
+  "pillow": "11.0.0",
+  "device_name": "NVIDIA GeForce RTX 3070",
+  "cuda_runtime": "12.1",
+  "cudnn_version": 90100,
+  "evidence_status": "EXPLORATORY_UNKNOWN_ANCESTRY_AND_UNVERIFIED_LABELS",
+  "publication_note": "Only filesystem paths normalized; numeric results and settings unchanged."
+}

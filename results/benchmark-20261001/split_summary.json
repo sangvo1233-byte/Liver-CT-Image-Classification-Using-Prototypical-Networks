@@ -1,0 +1,40 @@
+{
+  "images": 1293,
+  "unique_pixels": 1271,
+  "duplicate_groups": 22,
+  "splits": {
+    "train": {
+      "files": 958,
+      "unique_pixels": 942,
+      "folder_label_counts": {
+        "benign": 251,
+        "malignant": 239,
+        "no_tumor": 234,
+        "tumor": 234
+      }
+    },
+    "val": {
+      "files": 240,
+      "unique_pixels": 236,
+      "folder_label_counts": {
+        "benign": 58,
+        "malignant": 70,
+        "no_tumor": 52,
+        "tumor": 60
+      }
+    },
+    "test": {
+      "files": 95,
+      "unique_pixels": 93,
+      "folder_label_counts": {
+        "benign": 5,
+        "malignant": 85,
+        "no_tumor": 5
+      }
+    }
+  },
+  "grouping": "exact decoded pixels",
+  "patient_disjoint_verified": false,
+  "original_augmentation_ancestry": "unknown",
+  "label_provenance": "author-reported physician labels; records unverified"
+}
