@@ -1,5 +1,12 @@
 # Liver CT Image Classification Using Prototypical Networks
 
+> **At a glance**
+> - **Status:** university-level research project (no journal DOI). Author: Vo Minh Sang, [ORCID 0009-0003-6196-3003](https://orcid.org/0009-0003-6196-3003).
+> - **Task:** two-stage 2D liver CT classification (no tumor / tumor → benign / malignant) under few-shot label budgets.
+> - **Benchmark:** 3 methods (frozen ResNet-34 prototypes, fine-tuning, ProtoNet) × K = 5/10/30 × seeds 42/43/44, grouped splits, validation-only threshold selection, bootstrap CIs, CI-tested protocol.
+> - **Finding:** in this image collection, ProtoNet did not outperform the frozen-prototype baseline on pipeline macro-F1 at any K (best mean: frozen K=10, 0.370 ± 0.039). Full table in [EXPERIMENTS.md](EXPERIMENTS.md).
+> - **Cite:** see [CITATION.cff](CITATION.cff). Code under the [MIT License](LICENSE); data is not distributed.
+
 Research prototype for two-stage image classification: **no tumor / tumor**, followed by **benign / malignant**. The model classifies 2D images; it does not output lesion boxes or masks.
 
 This implementation addresses grouped data splits, consistent inference, matched-label baselines, and seed/error analysis. The **exploratory benchmark is complete** for all three methods, K=5/10/30 and seeds 42/43/44: 27 paired configurations and 81 sets of stage/pipeline metrics. See [the experiment report](EXPERIMENTS.md) and [published aggregate results](results/benchmark-20261001/summary.csv).

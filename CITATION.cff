@@ -1,0 +1,16 @@
+cff-version: 1.2.0
+message: "If you use this code, please cite it as below."
+type: software
+title: "Liver CT Image Classification Using Prototypical Networks"
+authors:
+  - family-names: "Vo"
+    given-names: "Minh Sang"
+    orcid: "https://orcid.org/0009-0003-6196-3003"
+repository-code: "https://github.com/sangvo1233-byte/liver-tumor-fewshot"
+license: MIT
+date-released: "2026-10-01"
+keywords:
+  - medical imaging
+  - liver CT
+  - few-shot learning
+  - prototypical networks
